@@ -1,0 +1,22 @@
+{
+    "awbdi": "exp(drdi + ln( wdi / tdi ))",
+    "awbgw": "max(mwbgw, min(1, 1 + gweawbgwf * ( pwa / tw - 1)))",
+    "awbi": "( 0.5 * awbdi + 0.5 * awbps) * awbin * awbgw * awbp",
+    "awbin": "1 + ieawbif * ( ineq / ti - 1 )",
+    "awbp": "( 1 + preawbf * ( orp - tpr )) * wbep",
+    "awbps": "exp(drps + ln( psp / tps ))",
+    "iest": "with_lookup( ineq / ai, ([(0,0), (4,2)],(0,1),(1,1),(2,0) ))",
+    "ipp": "if_then_else(eipf>0, eip, rd)",
+    "ird": "nrd * strerd * steerd",
+    "ist": "psestr * iest",
+    "orp": "smoothi( orp, (( awbi - pawbi) / awbi) / awbpd, awbpd, 0, dt )",
+    "pawbi": "smoothi( pawbi, awbi, awbpd, awi_in_1980, dt )",
+    "psestr": "with_lookup( pssgdp / sps, ([(0,0), (1,2)],(0,0),(1,1) ))",
+    "pssgdp": "psp / gdpp",
+    "rd": "smooth( rd, ird, tcrd, dt )",
+    "ste": "1 + pestf * ( orp - ap )",
+    "steerd": "1 + steerdf * ( ste / ste_1980 - 1 )",
+    "soc_trust": "smoothi( soc_trust, ist, test, soc_trust_1980, dt )",
+    "strerd": "1 + strerdf * ( soc_trust / soc_trust_1980 - 1 )",
+    "wbep": "1 + paeawbf * ( lpr / t_part - 1 )"
+}

@@ -1,0 +1,1530 @@
+{
+    "climate": {
+        "ai1980": [
+            "Amount of ice in 1980 MKm3",
+            "AI1980",
+            "ECIM",
+            55
+        ],
+        "algav": [
+            "Albedo global average",
+            "ALGAV",
+            "AL",
+            0.3
+        ],
+        "alis": [
+            "Albedo Ice and snow",
+            "ALIS",
+            "AL",
+            0.7
+        ],
+        "cccst": [
+            "Cost of CCS Dollar/tCO2",
+            "CCCSt",
+            "CAC",
+            95
+        ],
+        "co2a1850": [
+            "CO2 in atmosphere in 1850 GtCO2",
+            "CO2A1850",
+            "CO2AB",
+            2200
+        ],
+        "dacco22100": [
+            "Direct Air Capture of CO2 in 2100 GtCO2/y",
+            "DACCO22100",
+            "DACCO2",
+            0
+        ],
+        "eh1980": [
+            "Extra Heat in 1980 ZJ",
+            "EH1980",
+            "OW",
+            0
+        ],
+        "erdch4kc2022": [
+            "Extra rate of decline in CH4 per kg crop after 2022 1/y",
+            "ERDCH4KC2022",
+            "KCH4EKC",
+            0
+        ],
+        "erdn2okf2022": [
+            "Extra rate of decline in N2O per kg fertilizer from 2022",
+            "ERDN2OKF2022",
+            "KN2OEKF",
+            0
+        ],
+        "gch4pp": [
+            "GtCH4 per ppm",
+            "GCH4PP",
+            "CH4CA",
+            5
+        ],
+        "gco2pp": [
+            "GtCO2 per ppm",
+            "GCO2PP",
+            "CO2CA",
+            7.9
+        ],
+        "glsu": [
+            "GLobal SUrface Mkm2",
+            "GLSU",
+            [
+                "AL",
+                "EWFF"
+            ],
+            510
+        ],
+        "gn2opp": [
+            "GtN2O per ppm",
+            "GN2OPP",
+            "N2OCA",
+            5
+        ],
+        "hrmi": [
+            "Heat required to melt ice kJ/kg",
+            "HRMI",
+            "ECIM",
+            333
+        ],
+        "kch4kc1980": [
+            "kg CH4 per kg crop in 1980",
+            "KCH4KC1980",
+            "KCH4EKC",
+            0.05
+        ],
+        "kn2okf1980": [
+            "kg N2O per kg fertilizer in 1980",
+            "KN2OKF1980",
+            "KN2OEKF",
+            0.11
+        ],
+        "lch4a": [
+            "Life of CH4 in atmosphere y",
+            "LCH4A",
+            "CH4BD",
+            7.5
+        ],
+        "leco2a1980": [
+            "Life of extra CO2 in atmosphere in 1980 y",
+            "LECO2A1980",
+            "LECO2A",
+            60
+        ],
+        "ln2oa": [
+            "Life of N2O in atmosphere y",
+            "LN2OA",
+            "N2OBD",
+            95
+        ],
+        "mrs1980": [
+            "Melting rate surface in 1980 1/y",
+            "MRS1980",
+            "MRS",
+            0.0015
+        ],
+        "obwa2022": [
+            "OBserved WArming in 2022 deg C",
+            "OBWA2022",
+            "OWLCO2",
+            1.35
+        ],
+        "owwv": [
+            "sOWeoWV>0",
+            "OWWV",
+            "WVC",
+            0.18
+        ],
+        "pd": [
+            "Perception delay y",
+            "PD",
+            "PWA",
+            5
+        ],
+        "rdch4kc": [
+            "Rate of decline in CH4 per kg crop 1/y",
+            "RDCH4KC",
+            "KCH4EKC",
+            0.01
+        ],
+        "rdn2okf": [
+            "Rate of decline in N2O per kg fertilizer 1/y",
+            "RDN2OKF",
+            "KN2OEKF",
+            0.01
+        ],
+        "sowlco2": [
+            "sOWeoLoCO2>0",
+            "SOWLCO2",
+            "OWLCO2",
+            1
+        ],
+        "svdr": [
+            "Surface vs deep rate",
+            "SVDR",
+            "MRDI",
+            4
+        ],
+        "tco2etch4": [
+            "tCO2e/tCH4",
+            "TCO2ETCH4",
+            "GHGE",
+            23
+        ],
+        "tco2etco2": [
+            "tCO2e/tCO2",
+            "TCO2ETCO2",
+            "GHGE",
+            1
+        ],
+        "tco2etn2o": [
+            "tCO2e/tN2O",
+            "TCO2ETN2O",
+            "GHGE",
+            7
+        ],
+        "tco2ptch4": [
+            "tCO2 per tCH4",
+            "TCO2PTCH4",
+            "CO2FCH4",
+            2.75
+        ],
+        "tpm3i": [
+            "Ton per m3 ice",
+            "TPM3I",
+            "ECIM",
+            0.95
+        ],
+        "trsa1980": [
+            "Transfer rate surface-abyss in 1980 1/y",
+            "TRSA1980",
+            "TRHGA",
+            0.01
+        ],
+        "trss1980": [
+            "Transfer rate surface-space in 1980 1/y",
+            "TRSS1980",
+            "TRHGS",
+            0.01
+        ],
+        "wa1980": [
+            "Warming in 1980 deg C",
+            "WA1980",
+            [
+                "MRS",
+                "WVC",
+                "OW"
+            ],
+            0.4
+        ],
+        "wfeh": [
+            "Warming from Extra Heat deg/ZJ",
+            "WFEH",
+            "OW",
+            0.0006
+        ],
+        "wvc1980": [
+            "Water Vapour Concentration in 1980 g/kg",
+            "WVC1980",
+            [
+                "WVC",
+                "WVF"
+            ],
+            2
+        ],
+        "wvf1980": [
+            "Water Vapour Feedback in 1980 W/m2",
+            "WVF1980",
+            "WVF",
+            0.9
+        ],
+        "wvwvf": [
+            "sWVeoWVF>0",
+            "WVWVF",
+            "WVF",
+            3
+        ]
+    },
+    "demand": {
+        "bitrw": [
+            "Basic Income Tax Rate Workers",
+            "BITRW",
+            "ITW",
+            0.2
+        ],
+        "eetf2022": [
+            "Extra Empowerment Tax From 2022 (share of NI)",
+            "EETF2022",
+            "EGTF2022",
+            0
+        ],
+        "egtrf2022": [
+            "Extra General Tax Rate From 2022",
+            "EGTRF2022",
+            "EGTF2022",
+            0
+        ],
+        "eptf2022": [
+            "Extra Pension Tax From 2022 (share of NI)",
+            "EPTF2022",
+            "EGTF2022",
+            0
+        ],
+        "etgbw": [
+            "Extra Transfer of Govmnt Budget to Workers",
+            "ETGBW",
+            "GFGBW",
+            0
+        ],
+        "fetacpet": [
+            "Fraction of Extra TA Cost Paid by Extra Taxes",
+            "FETACPET",
+            "ETTAF2022",
+            0.5
+        ],
+        "fetpo": [
+            "Fraction of Extra Taxes Paid by Owners",
+            "FETPO",
+            [
+                "OT",
+                "WT"
+            ],
+            0.5
+        ],
+        "fgdc2022": [
+            "Fraction of Govmnt Debt Cancelled in 2022 1/y",
+            "FGDC2022",
+            "CANCD",
+            0
+        ],
+        "ft1980": [
+            "Fraction Transferred in 1980",
+            "FT1980",
+            "GFGBW",
+            0.3
+        ],
+        "gcf": [
+            "Govmnt Consumption Fraction",
+            "GCF",
+            "GPU",
+            0.75
+        ],
+        "gddp": [
+            "Govmnt DrawDown Period y",
+            "GDDP",
+            "GND",
+            10
+        ],
+        "gdposr": [
+            "sGDPeoOSR<0",
+            "GDPOSR",
+            "OSF",
+            -0.06
+        ],
+        "gdpp1980": [
+            "GDP per Person in 1980 kDollar/p/y",
+            "GDPP1980",
+            "OSF",
+            6.4
+        ],
+        "geic": [
+            "Goal for Extra Income from Commons (share of NI)",
+            "GEIC",
+            "IC2022",
+            0
+        ],
+        "gitro": [
+            "Goal for Income Tax Rate Owners",
+            "GITRO",
+            "BITRO",
+            0.3
+        ],
+        "gpp": [
+            "Govmnt Payback Period y",
+            "GPP",
+            "GP",
+            200
+        ],
+        "gsf2022": [
+            "Govmnt Stimulus From 2022 (share of NI)",
+            "GSF2022",
+            "GND",
+            0
+        ],
+        "ineq1980": [
+            "INEQuality in 1980",
+            "INEQ1980",
+            "INEQI",
+            0.61
+        ],
+        "itro1980": [
+            "Income Tax Rate Owners in 1980",
+            "ITRO1980",
+            "BITRO",
+            0.4
+        ],
+        "itro2022": [
+            "Income Tax Rate Owners in 2022",
+            "ITRO2022",
+            "BITRO",
+            0.3
+        ],
+        "mgdb": [
+            "Max Govmnt Debt Burden y",
+            "MGDB",
+            "MGD",
+            1
+        ],
+        "mwdb": [
+            "Max Workers Debt Burden y",
+            "MWDB",
+            "MWD",
+            1
+        ],
+        "osf1980": [
+            "Owner Savings Fraction in 1980",
+            "OSF1980",
+            "OSF",
+            0.9
+        ],
+        "sales_tax_r": [
+            "Sales Tax Rate",
+            "STR",
+            [
+                "STO",
+                "STW"
+            ],
+            0.03
+        ],
+        "tab": [
+            "Time to Adjust Budget y",
+            "TAB",
+            "PGCIN",
+            1
+        ],
+        "taoc": [
+            "Time to Adjust Owner Consumption y",
+            "TAOC",
+            "POCI",
+            1
+        ],
+        "tawc": [
+            "Time to Adjust Worker Consumption y",
+            "TAWC",
+            "PWCIN",
+            1
+        ],
+        "tint": [
+            "Time to Implement New Taxes y",
+            "TINT",
+            [
+                "ETF2022",
+                "FGBW"
+            ],
+            5
+        ],
+        "wcf": [
+            "Worker Consumption Fraction",
+            "WCF",
+            "WCD",
+            0.9
+        ],
+        "wdp": [
+            "Worker Drawdown Period y",
+            "WDP",
+            "WND",
+            10
+        ],
+        "wpp": [
+            "Worker Payback Period y",
+            "WPP",
+            "WP",
+            20
+        ]
+    },
+    "energy": {
+        "afmcm": [
+            "Adjustment factor to make cost match 1980 - 2022",
+            "AFMCM",
+            1.35
+        ],
+        "bem": [
+            "Biomass energy Mtoe/y",
+            "BEM",
+            0
+        ],
+        "capexfed": [
+            "CAPEX fossil el Dollar/W",
+            "CAPEXFED",
+            0.7
+        ],
+        "capexre1980": [
+            "CAPEX of renewable el in 1980 Dollar/W",
+            "CAPEXRE1980",
+            7
+        ],
+        "cccst": [
+            "Cost of CCS Dollar/tCO2",
+            "CCCSt",
+            95
+        ],
+        "cned": [
+            "Cost of Nuclear El Dollar/kWh",
+            "CNED",
+            0.033
+        ],
+        "crdswc": [
+            "Cost reduction per dubling of sun and wind capacity",
+            "CRDSWC",
+            0.2
+        ],
+        "ecruneff": [
+            "Extra cost per reduced use og non-el FF Dollar/toe",
+            "ECRUNEFF",
+            10
+        ],
+        "efpp": [
+            "Efficiency of fossil power plant TWh-el/TWh-heat",
+            "EFPP",
+            0.345
+        ],
+        "ekhpy": [
+            "8 khours per year",
+            "EKHPY",
+            8
+        ],
+        "erocepa2022": [
+            "Extra ROC in energy productivity after 2022 1/y",
+            "EROCEPA2022",
+            0.002
+        ],
+        "euepruneff": [
+            "Extra use of electricity per reduced use of non-el FF MWh/toe",
+            "EUEPRUNEFF",
+            3
+        ],
+        "fco2sccs2022": [
+            "Fraction of CO2-sources with CCS in 2022",
+            "FCO2SCCS2022",
+            0
+        ],
+        "fecct": [
+            "Fossil el cap construction time y",
+            "FECCT",
+            3
+        ],
+        "fne1980": [
+            "Fraction new electrification in 1980",
+            "FNE1980",
+            0
+        ],
+        "fne2022": [
+            "Fraction new electrification in 2022",
+            "FNE2022",
+            0.03
+        ],
+        "freh": [
+            "Fraction of renewable electricity to hydrogen",
+            "FREH",
+            0
+        ],
+        "gfco2sccs": [
+            "Goal for fraction of CO2-sources with CCS",
+            "GFCO2SCCS",
+            0.2
+        ],
+        "gfne": [
+            "Goal for fraction new electrification",
+            "GFNE",
+            0.5
+        ],
+        "gref": [
+            "Goal for renewable el fraction",
+            "GREF",
+            0.5
+        ],
+        "kwepkgh2": [
+            "kWh electricity per kg of hydrogen",
+            "KWEPKGH2",
+            40
+        ],
+        "lrec": [
+            "Life of renewable el capacity y",
+            "LREC",
+            40
+        ],
+        "mnfco2pp": [
+            "Max non-fossil CO2 per person tCO2/p/y",
+            "MNFCO2PP",
+            0.5
+        ],
+        "mtpejce": [
+            "Mtoe per EJ - calorific equivalent",
+            "MTPEJCE",
+            24
+        ],
+        "ncut": [
+            "Nuclear capacity up-time kh/y",
+            "NCUT",
+            8
+        ],
+        "niee": [
+            "Normal increase in energy efficiency 1/y",
+            "NIEE",
+            0.01
+        ],
+        "nlfec": [
+            "Normal life of fossil el capacity y",
+            "NLFEC",
+            40
+        ],
+        "opexfed": [
+            "OPEX fossil el Dollar/kWh",
+            "OPEXFED",
+            0.02
+        ],
+        "opexred": [
+            "OPEX renewable el Dollar/kWh",
+            "OPEXRED",
+            0.001
+        ],
+        "rcut": [
+            "Renewable capacity up-time kh/y",
+            "RCUT",
+            3
+        ],
+        "rect": [
+            "Renewable el contruction time y",
+            "RECT",
+            3
+        ],
+        "reff1980": [
+            "Renewable el fraction in 1980",
+            "REFF1980",
+            0.065
+        ],
+        "reff2022": [
+            "Renewable el fraction in 2022",
+            "REFF2022",
+            0.23
+        ],
+        "roctco2pt": [
+            "ROC in tCO2 per toe 1/y",
+            "ROCTCO2PT",
+            -0.003
+        ],
+        "swc1980": [
+            "Sun and wind capacity in 1980 GW",
+            "SWC1980",
+            10
+        ],
+        "tc": [
+            "Transmission cost Dollar/kWh",
+            "TC",
+            0.02
+        ],
+        "tce": [
+            "Traditional cost of electricity Dollar/kWh",
+            "TCE",
+            0.03
+        ],
+        "tcfffneu": [
+            "Traditional cost of fossil fuels for non-el use Dollar/toe",
+            "TCFFFNEU",
+            240
+        ],
+        "tpth2": [
+            "toe per tH2",
+            "TPTH2",
+            10
+        ],
+        "twhpejce": [
+            "TWh-heat per EJ - calorific equivalent",
+            "TWHPEJCE",
+            278
+        ],
+        "sfcutlofc": [
+            "sFCUTeoLOFC>0",
+            "sFCUTLOFC",
+            0.5
+        ]
+    },
+    "finance": {
+        "fsrt": [
+            "Financial Sector Response Time y",
+            "FSRT",
+            1
+        ],
+        "grcr": [
+            "sGReoCR<0: Growth Rate effect on Credit Risk",
+            "GRCR",
+            0
+        ],
+        "ieft": [
+            "Inflation Expectation Formation Time y",
+            "IEFT",
+            10
+        ],
+        "insr": [
+            "sINeoSR>0: INflation effect on Signal Rate",
+            "INSR",
+            0.7
+        ],
+        "iptcb": [
+            "Inflation Perception Time CB y",
+            "IPTCB",
+            1
+        ],
+        "it": [
+            "Inflation Target 1/y",
+            "IT",
+            0.02
+        ],
+        "nbbm": [
+            "Normal Basic Bank Margin 1/y",
+            "NBBM",
+            0.005
+        ],
+        "nbom": [
+            "Normal Bank Operating Margin 1/y",
+            "NBOM",
+            0.015
+        ],
+        "nsr": [
+            "Normal Signal Rate 1/y",
+            "NSR",
+            0.02
+        ],
+        "srat": [
+            "Signal Rate Adjustment Time y",
+            "SRAT",
+            1
+        ],
+        "unsr": [
+            "sUNeoSR<0: UNemployment effect on Signal Rate",
+            "UNSR",
+            -1.5
+        ],
+        "uptcb": [
+            "Unemployment Perception Time CB y",
+            "UPTCB",
+            1
+        ],
+        "ut": [
+            "Unemployment Target",
+            "UT",
+            0.05
+        ]
+    },
+    "food_and_land": {
+        "afgdp": [
+            "Agriculture as Fraction of GDP",
+            "AFGDP",
+            0.05
+        ],
+        "cbecle": [
+            "sFBeoCLE<0: Crob Balance Effect on CropLand Expansion",
+            "CBECLE",
+            -0.03
+        ],
+        "co2ara": [
+            "CO2 Absorbed in Reg Ag tCO2/ha/y",
+            "CO2ARA",
+            1
+        ],
+        "co2c2022": [
+            "Climate.CO2 concentration in 2022 ppm",
+            "CO2C2022",
+            420
+        ],
+        "co2ceacy": [
+            "sCO2CeoACY>0: CO2 Concentration Effect on Average Crop Yeld",
+            "CO2CEACY",
+            0.3
+        ],
+        "co2rhfc": [
+            "CO2 Release per Ha of Forest Cut tCO2/ha",
+            "CO2RHFC",
+            65
+        ],
+        "crdra": [
+            "Cost Reduction per Doubling in Regenerative Agriculture",
+            "CRDRA",
+            0.05
+        ],
+        "ctf": [
+            "Cost per Ton Fertilizer dollar/t",
+            "CTF",
+            500
+        ],
+        "cyra": [
+            "Crop Yield in Reg Ag t-crop/ha/y",
+            "CYRA",
+            5
+        ],
+        "drc": [
+            "Desired Reserve Capacity",
+            "DRC",
+            0.05
+        ],
+        "ecra22": [
+            "Extra Cost of Reg Ag in 2022 dollar/ha/y",
+            "ECRA22",
+            400
+        ],
+        "egb22": [
+            "Experience Gained Before 2022 Mha",
+            "EGB22",
+            5
+        ],
+        "erocfsp": [
+            "Extra ROC in Food Sector Productivity from 2022 1/y",
+            "EROCFSP",
+            0
+        ],
+        "fcg": [
+            "Fraction Cleared for Grazing",
+            "FCG",
+            0.1
+        ],
+        "ff80": [
+            "Food Footprint in 1980",
+            "FF80",
+            88450
+        ],
+        "fflreogrrm": [
+            "sFFLReoOGRR<0: Fraction Forestry Land Remaining Effect on Old Growth Removal Rate Multiplier",
+            "FFLREOGRRM",
+            -5
+        ],
+        "fueler": [
+            "sFUeoLER>0: Fertilizer Use Effect on Land Erosion Rate",
+            "FUELER",
+            0.02
+        ],
+        "fuesq": [
+            "sFUeoSQ<0: Fertilizer Use Effect on Soil Quality",
+            "FUESQ",
+            -0.001
+        ],
+        "gcwr": [
+            "Goal for Crop Waste Reduction",
+            "GCWR",
+            0.05
+        ],
+        "gfnrm": [
+            "Goal for Fraction New Red Meat",
+            "GFNRM",
+            0.1
+        ],
+        "gfra": [
+            "Goal for fraction regenerative agriculture",
+            "GFRA",
+            0.1
+        ],
+        "kckrm": [
+            "Kg-Crop per Kg-Red-Meat",
+            "KCKRM",
+            24
+        ],
+        "ler80": [
+            "Land Erosion Rate in 1980 1/y",
+            "LER80",
+            0.004
+        ],
+        "mfam": [
+            "Max Forest Absorption Multiplier",
+            "MFAM",
+            2
+        ],
+        "ogrr80": [
+            "OGRR in 1980 1/y",
+            "OGRR80",
+            0.004
+        ],
+        "ow2022": [
+            "Climate.Observed Warming in 2022 deg C",
+            "OW2022",
+            1.35
+        ],
+        "oweacy": [
+            "sOWeoACY<0: Observed Warming Effect on Average Crop Yeld",
+            "OWEACY",
+            -0.3
+        ],
+        "rocfp": [
+            "ROC in Fertilizer Productivity 1/y",
+            "ROCFP",
+            0.01
+        ],
+        "rocfsp": [
+            "ROC in Food Sector Productivity 1/y",
+            "ROCFSP",
+            0.002
+        ],
+        "sfu": [
+            "Sustainable Fertiliser Use kgN/ha/y",
+            "SFU",
+            20
+        ],
+        "ssp2lma": [
+            "SSP2 land management action from 2022?",
+            "SSP2LMA",
+            1
+        ],
+        "tctb": [
+            "Ton Crops per Toe Biofuel",
+            "TCTB",
+            0
+        ],
+        "tfflr": [
+            "Threshold FFLR",
+            "TFFLR",
+            0.2
+        ],
+        "udt": [
+            "Urban Development Time y",
+            "UDT",
+            10
+        ],
+        "ulp": [
+            "Urban Land per Population ha/p",
+            "ULP",
+            0.05
+        ]
+    },
+    "inventory": {
+        "dat": [
+            "Demand Adjustment Time y",
+            "DAT",
+            1.2
+        ],
+        "ddi1980": [
+            "DDI in 1980 y",
+            "DDI1980",
+            1
+        ],
+        "dic": [
+            "Desired Inventory Coverage y",
+            "DIC",
+            0.4
+        ],
+        "dri": [
+            "Desired Relative Inventory",
+            "DRI",
+            1
+        ],
+        "icpt": [
+            "Inventory Coverage Perception Time y",
+            "ICPT",
+            0.25
+        ],
+        "inveoddi": [
+            "sINVeoDDI < 0: INVentory Effect On Delivery Delay Index",
+            "INVEODDI",
+            -0.6
+        ],
+        "inveoin": [
+            "sINVeoIN < 0: INVentory Effect On INflation",
+            "INVEOIN",
+            -0.26
+        ],
+        "inveoswi": [
+            "sINVeoSWI < 0: INVentory Effect On Shifts Worked Index",
+            "INVEOSWI",
+            -0.6
+        ],
+        "mriwi": [
+            "Minimum Relative Inventory Without Inflation",
+            "MRIWI",
+            1.07
+        ],
+        "ppu": [
+            "Price Per Unit /u",
+            "PPU",
+            1
+        ],
+        "sat": [
+            "Sales Averaging Time y",
+            "SAT",
+            1
+        ],
+        "sri": [
+            "Sufficient Relative Inventory",
+            "SRI",
+            1
+        ],
+        "swi1980": [
+            "SWI in 1980",
+            "SWI1980",
+            1
+        ],
+        "tas": [
+            "Time to Adjust Shifts y",
+            "TAS",
+            0.24
+        ]
+    },
+    "labour_market": {
+        "aur": [
+            "Acceptable Unemployment Rate (1)",
+            "AUR",
+            0.05
+        ],
+        "fic": [
+            "Fraction of Inflation Compensated (1)",
+            "FIC",
+            1
+        ],
+        "gdpp1980": [
+            "GDP per Person in 1980",
+            "GDPP1980",
+            6.4
+        ],
+        "gdpperocclrm": [
+            "sGDPppeoROCCLR<0: GDPP Effect on Rate Of Change in Capital Labour Ratio",
+            "GDPPEROCCLRM",
+            -0.1
+        ],
+        "genlpr": [
+            "Goal for Extra Normal LPR (1)",
+            "GENLPR",
+            0
+        ],
+        "nlpr80": [
+            "Normal LPR in 1980 (1)",
+            "NLPR80",
+            0.85
+        ],
+        "pftj": [
+            "Persons per Full-Time Job p/ftj",
+            "PFTJ",
+            1
+        ],
+        "pftj80": [
+            "Persons per Full-Time Job in 1980 p/ftj",
+            "PFTJ80",
+            1
+        ],
+        "prun": [
+            "PRice per UNit dollar/u",
+            "PRUN",
+            1
+        ],
+        "puelpr": [
+            "sPUNeoLPR>0: Perceived Unemployment Effect on Labour Participation Rate",
+            "PUELPR",
+            0.05
+        ],
+        "roceclr80": [
+            "ROC in ECLR in 1980 1/y",
+            "ROCECLR80",
+            0.02
+        ],
+        "rwer": [
+            "Real Wage Erosion Rate 1/y",
+            "RWER",
+            0.015
+        ],
+        "tahw": [
+            "Time to Adjust Hours Worked y",
+            "TAHW",
+            5
+        ],
+        "tellm": [
+            "Time to Enter/Leave Labor Market y",
+            "TELLM",
+            5
+        ],
+        "tenhw": [
+            "sTIeoNHW<0: Time Effect on Number Hours Worked",
+            "TENHW",
+            -0.03
+        ],
+        "tyld": [
+            "10-Yr Loop Delay y",
+            "TYLD",
+            2.3
+        ],
+        "wsoeclr": [
+            "sWSOeoCLR>0: Worker Share of Output Effect on Capital Labour Ratio",
+            "WSOECLR",
+            1.05
+        ],
+        "wsoelpr": [
+            "sWSOeoLPR>0: Worker Share of Output Effect on Labour Participation Rate",
+            "WSOELPR",
+            0.2
+        ]
+    },
+    "other_performance_indicators": {
+        "inelok": [
+            "sINEeoLOK<0: INequity Effect on LOgistic K",
+            "INELOK",
+            -0.5
+        ],
+        "nk": [
+            "Normal K",
+            "NK",
+            0.3
+        ],
+        "tegr": [
+            "Time to Establish Growth Rate y",
+            "TEGR",
+            4
+        ]
+    },
+    "output": {
+        "cappis1980": [
+            "CAP PIS in 1980 Gcu",
+            "CAPPIS1980",
+            59250
+        ],
+        "cappus1980": [
+            "CAP PUS in 1980 Gcu",
+            "CAPPUS1980",
+            5350
+        ],
+        "cbcefra": [
+            "sCBCeoFRA<0: Corporate Borrowing Cost Effect on FRA",
+            "CBCEFRA",
+            -0.8
+        ],
+        "cc1980": [
+            "Cost of Capacity in 1980 dollar/cu",
+            "CC1980",
+            1
+        ],
+        "ctpis": [
+            "Construction Time PIS y",
+            "CTPIS",
+            1.5
+        ],
+        "ctpus": [
+            "Construction Time PUS y",
+            "CTPUS",
+            1.5
+        ],
+        "ed1980": [
+            "Excess Demand in 1980",
+            "ED1980",
+            1
+        ],
+        "edefra": [
+            "sEDeoFRA>0: Excess Demand Effect on FRA",
+            "EDEFRA",
+            5
+        ],
+        "edelcm": [
+            "sEDeoLOC>0: Excess Demand Effect on Life of Capacity",
+            "EDELCM",
+            0.5
+        ],
+        "emcuc": [
+            "Extra Mult on CUC, to avoid initial transient in investment share of GDP",
+            "EMCUC",
+            1.7
+        ],
+        "fci": [
+            "Foreign Capital Inflow Gdollar/y",
+            "FCI",
+            0
+        ],
+        "fra1980": [
+            "FRA in 1980",
+            "FRA1980",
+            0.9
+        ],
+        "fracam": [
+            "FRACA Min",
+            "FRACAM",
+            0.65
+        ],
+        "gdpp1980": [
+            "GDP per Person in 1980",
+            "GDPP1980",
+            6.4
+        ],
+        "gdppefraca": [
+            "sGDPppeoFRACA<0: GDP per Person Effect on FRACA",
+            "GDPPEFRACA",
+            -0.2
+        ],
+        "ipt": [
+            "Investment Planning Time y",
+            "IPT",
+            1
+        ],
+        "kappa": [
+            "Kappa",
+            "KAPPA",
+            0.3
+        ],
+        "lambda_": [
+            "Lambda",
+            "LAMBDA",
+            0.7
+        ],
+        "laus1980": [
+            "Labour Use in 1980 Gph/y",
+            "LAUS1980",
+            3060
+        ],
+        "lcpis1980": [
+            "Life of Capacity PIS in 1980 y",
+            "LCPIS1980",
+            15
+        ],
+        "oo1980": [
+            "Optimal output in 1980 Gu/y",
+            "OO1980",
+            28087
+        ],
+        "ow2022": [
+            "OBserved WArming in 2022 deg C",
+            "OW2022",
+            1.35
+        ],
+        "oweccm": [
+            "sOWeoCOC>0: Observed Warming Effect on Cost of Capacity Multiplier",
+            "OWECCM",
+            0.2
+        ],
+        "owelcm": [
+            "sOWeoLOC<0: Observed Warming Effect on Life of Capacity Multiplier",
+            "OWELCM",
+            -0.1
+        ],
+        "prun": [
+            "Price per Unit dollar/u",
+            "PRUN",
+            1
+        ],
+        "toed": [
+            "Time to observe excess demand y",
+            "TOED",
+            1
+        ],
+        "uspis2022": [
+            "Unconventional Stimulus in PIS from 2022 (share of GDP)",
+            "USPIS2022",
+            0
+        ],
+        "uspus2022": [
+            "Unconventional Stimulus in PUS from 2022 (share of GDP)",
+            "USPUS2022",
+            0
+        ],
+        "wsoefra": [
+            "sWSOeoFRA<0: Worker Share of Output Effect on FRA",
+            "WSOEFRA",
+            -2.5
+        ]
+    },
+    "population": {
+        "cmfr": [
+            "Cost of Max Fertility Reduction (share of GDP)",
+            "CMFR",
+            0.01
+        ],
+        "dnc80": [
+            "DNC in 1980",
+            "DNC80",
+            4.3
+        ],
+        "dnca": [
+            "DNCalfa<0",
+            "DNCA",
+            0
+        ],
+        "dncg": [
+            "DNCgamma",
+            "DNCG",
+            0.14
+        ],
+        "dncm": [
+            "DNCmin",
+            "DNCM",
+            1.2
+        ],
+        "fadfs": [
+            "Fraction Achieving Desired Family Size",
+            "FADFS",
+            0.8
+        ],
+        "fp": [
+            "Fertile Period",
+            "FP",
+            20
+        ],
+        "fw": [
+            "Fraction Women",
+            "FW",
+            0.5
+        ],
+        "gefr": [
+            "Goal for Extra Fertility Reduction",
+            "GEFR",
+            0
+        ],
+        "gepa": [
+            "Goal for Extra Pension Age y",
+            "GEPA",
+            0
+        ],
+        "lea": [
+            "LEalfa",
+            "LEA",
+            0.001
+        ],
+        "leepa": [
+            "sLEeoPa>0: Life Expectancy Effect on Pension Age",
+            "LEEPA",
+            0.75
+        ],
+        "leg": [
+            "LEgamma",
+            "LEG",
+            0.15
+        ],
+        "lemax": [
+            "LEmax",
+            "LEMAX",
+            85
+        ],
+        "mfm": [
+            "Max Fertility Multiplier",
+            "MFM",
+            1.6
+        ],
+        "mlem": [
+            "Max Life Expectancy Multiplier",
+            "MLEM",
+            1.1
+        ],
+        "ow2022": [
+            "Observed Warming in 2022 deg C",
+            "OW2022",
+            1.35
+        ],
+        "owele": [
+            "sOWeoLE<0: Observed Warming Effect on Life Expectancy",
+            "OWELE",
+            -0.02
+        ],
+        "ssp2fa2022f": [
+            "SSP2 Family Action from 2022 Flag",
+            "SSP2FA2022F",
+            1
+        ],
+        "tahi": [
+            "Time to adapt to higher income y",
+            "TAHI",
+            10
+        ]
+    },
+    "public": {
+        "cta2022": [
+            "Cost of TAs in 2022 GDollar/y",
+            "CTA2022",
+            9145
+        ],
+        "ctpis": [
+            "Construction time PIS y",
+            "CTPIS",
+            1.5
+        ],
+        "drota1980": [
+            "Domestic ROTA in 1980 1/y",
+            "DROTA1980",
+            0.01
+        ],
+        "edrota2022": [
+            "Extra Domestic ROTA in 2022 1/y",
+            "EDROTA2022",
+            0.003
+        ],
+        "fuata": [
+            "Fraction Unprofitable Activity in TAs",
+            "FUATA",
+            0.3
+        ],
+        "gdptl": [
+            "GDPpp of Technology Leader kDollar/p/k",
+            "GDPTL",
+            15
+        ],
+        "iieerota": [
+            "sIIEeoROTA<0: Inequality Index Effect on ROTA",
+            "IIEEROTA",
+            -0.1
+        ],
+        "ipr1980": [
+            "Infrastructure Purchases Ratio in 1980 y",
+            "IPR1980",
+            1.2
+        ],
+        "iprvpss": [
+            "sIPReoVPSS>0: Infrastructure Purchase Ratio effect on Value of Pubblic Services Supplied",
+            "IPRVPSS",
+            1
+        ],
+        "ipt": [
+            "Investment planning time y",
+            "IPT",
+            1
+        ],
+        "mirota2022": [
+            "Max Imported ROTA from 2022 1/y",
+            "MIROTA2022",
+            0
+        ],
+        "ow2022": [
+            "Observed Warming in 2022 deg C",
+            "OW2022",
+            1.35
+        ],
+        "owetfp": [
+            "sOWeoTFP<0: Observed Warming Effect on Total Factor Productivity",
+            "OWETFP",
+            -0.1
+        ],
+        "sc1980": [
+            "State Capacity in 1980 (fraction of GDP)",
+            "SC1980",
+            0.3
+        ],
+        "scrota": [
+            "sSCeoROTA>0: State Capacity effect on Rate Of Technological Advance",
+            "SCROTA",
+            0.5
+        ]
+    },
+    "wellbeing": {
+        "ai": [
+            "Acceptable Inequality",
+            "AI",
+            0.6
+        ],
+        "ap": [
+            "Acceptable Progress 1/y",
+            "AP",
+            0.02
+        ],
+        "awbpd": [
+            "Average WellBeing Perception Delay y",
+            "AWBPD",
+            9
+        ],
+        "drdi": [
+            "Diminishing Return Disposable Income",
+            "DRDI",
+            0.5
+        ],
+        "drps": [
+            "Diminishing Return Public Spending",
+            "DRPS",
+            0.7
+        ],
+        "eip": [
+            "Exogenous Introduction Period y",
+            "EIP",
+            30
+        ],
+        "eipf": [
+            "Exogenous Introduction Period Flag",
+            "EIPF",
+            0
+        ],
+        "gweawbgwf": [
+            "sGWeoAW<0: Global Warming Effect on Average WellBeing from Global Warming Flag",
+            "GWEAWBGWF",
+            -0.58
+        ],
+        "ieawbif": [
+            "sIIeoAW<0: Inequality Effect on Average WellBeing from Inequality Flag",
+            "IEAWBIF",
+            -0.6
+        ],
+        "mwbgw": [
+            "Min WellBeing from Global Warming",
+            "MWBGW",
+            0.2
+        ],
+        "nrd": [
+            "Normal Reform Delay y",
+            "NRD",
+            30
+        ],
+        "paeawbf": [
+            "sLPeoAWP>0: PArtecipation Effect on Average WellBeing Flag",
+            "PAEAWBF",
+            0.5
+        ],
+        "pestf": [
+            "sPPReoSTE<0: Progress Effect on Social Tension Flag",
+            "PESTF",
+            -15
+        ],
+        "preawbf": [
+            "sROPeoAW>0: PRogress Effect on Average WellBeing Flag",
+            "PREAWBF",
+            6
+        ],
+        "sps": [
+            "Satisfactory Public Spending",
+            "SPS",
+            0.3
+        ],
+        "steerdf": [
+            "sSTEeoRD>0: Social Tension Effect on Reform Delay Flag",
+            "STEERDF",
+            1
+        ],
+        "strerdf": [
+            "sSTReoRD<0: Social Trust Effect on Reform Delay Flag",
+            "STRERDF",
+            -1
+        ],
+        "tcrd": [
+            "Time to Change Reform Delay y",
+            "TCRD",
+            10
+        ],
+        "tdi": [
+            "Threshold Disposable Income kdollar/p/y",
+            "TDI",
+            15
+        ],
+        "test": [
+            "Time to Establish Social Trust y",
+            "TEST",
+            10
+        ],
+        "ti": [
+            "Threshold Inequality",
+            "TI",
+            0.5
+        ],
+        "t_part": [
+            "Threshold Participation",
+            "TP",
+            0.8
+        ],
+        "tpr": [
+            "Threshold Progress Rate 1/y",
+            "TPR",
+            0.02
+        ],
+        "tps": [
+            "Threshold Public Spending kdollar/p/y",
+            "TPS",
+            3
+        ],
+        "tw": [
+            "Threshold Warming deg C",
+            "TW",
+            1
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "cbc": "ccsd + nccr",
+    "cbc1980": "nsr + nbbm + nbom + nccr",
+    "cbsr": "integ( cbsr, csr, dt, 0 )",
+    "ccsd": "smoothi( ccsd, tir + nbom, fsrt, tir + nbom, dt )",
+    "csr": "( isr - cbsr ) / srat",
+    "elti": "smoothi( elti, pi, ieft, inflation_in_1980, dt )",
+    "gbc": "tir",
+    "isr": "nsr * ( 1 + insr * (pi / it - 1) + unsr * (pu / ut - 1) )",
+    "nccr": "0.02 * ( 1 + grcr * ( ogr / 0.03 - 1 ))",
+    "pi": "smoothi( pi, ir, iptcb, inflation_in_1980, dt )",
+    "pu": "smooth( pu, ur, uptcb, dt )",
+    "tgir": "gbc + elti",
+    "tir": "cbsr + nbbm",
+    "wbc": "ccsd"
+}

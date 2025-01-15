@@ -1,0 +1,22 @@
+{
+    "ctfp": "rta * tfpee5ta",
+    "drta": "( drota1980 + (if_then_else(time>2022, edrota2022, 0) ) * ( 1 + scrota * ( sc / sc1980 - 1 )))",
+    "ectaf2022": "max(0, cta - cta2022)",
+    "ectagdp": "ectaf2022 / gdp",
+    "gssgdp": "gs / gdp",
+    "ipr": "cpus / gpu",
+    "irota": "if_then_else(time>2022, max(0, mirota2022 * ( 1 - 1 * ( gdpp / gdptl - 1 )) ), 0)",
+    "itfp": "tfpie5ta * owtfp",
+    "owtfp": "if_then_else(time>2022, 1 + owetfp * ( ow / ow2022 - 1 ), 1)",
+    "plua": "ectagdp * fuata",
+    "ppp": "max(0, 1 + iprvpss * ln( ipr / ipr1980 ))",
+    "psep": "vpss / pop",
+    "psp": "gs / pop",
+    "rrotai": "min(1, 1 + iieerota * ( ineqi / 1 - 1) )",
+    "rta": "( drta + 0 ) * rrotai + irota",
+    "rtfpua": "smooth( rtfpua, plua, ipt + ctpis, dt )",
+    "sc": "vpss / gdp",
+    "tfpee5ta": "integ( tfpee5ta, ctfp, dt, 0 )",
+    "tfpie5ta": "tfpee5ta * ( 1 - rtfpua )",
+    "vpss": "gpu * ppp"
+}

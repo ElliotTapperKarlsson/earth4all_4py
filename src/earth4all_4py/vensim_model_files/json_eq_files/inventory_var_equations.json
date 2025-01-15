@@ -1,0 +1,21 @@
+{
+    "cddi": "rocddi * deldi",
+    "cpi": "prin * ir",
+    "del_": "( ( epp / ppu ) / ( deldi / ddi1980 )) * if_then_else ( time > 1984, pnis, 1)",
+    "deldi": "integ( deldi, cddi, dt, 0 )",
+    "dswi": "1 + inveoswi * (pri / dri - 1 )",
+    "epp": "smoothi( epp, tpp, dat, oo1980 * prun * swi1980, dt ) * ( 1 + 0 + pulse_height_1 * pulse( time , 2020,5))",
+    "gdp": "outp * ppu",
+    "ic": "inv / rs",
+    "inv": "integ( inv, outp - del_, dt, 0 )",
+    "ir": "inveoin * ( pri / mriwi - 1 )",
+    "ni": "sa",
+    "outp": "oro * sswi / swi1980",
+    "pnis": "##RAND_PINK_NOISE",
+    "pri": "smooth( pri, ic / dic, icpt, dt )",
+    "prin": "integ( prin, cpi, dt, 0 )",
+    "rocddi": "0 + inveoddi * ( pri / sri - 1 )",
+    "rs": "smoothi( rs, del_, sat, oo1980 * prun * swi1980, dt )",
+    "sa": "del_ * ppu",
+    "sswi": "smooth( sswi, dswi, tas, dt )"
+}

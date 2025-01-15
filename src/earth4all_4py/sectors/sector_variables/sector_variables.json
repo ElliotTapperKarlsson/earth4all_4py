@@ -1,0 +1,5722 @@
+{
+    "climate": {
+        "al": [
+            "Albedo (1)",
+            "AL",
+            [
+                "ISCEGA"
+            ],
+            [
+                "ALIS",
+                "ALGAVGLSU"
+            ],
+            0.3094
+        ],
+        "cac": [
+            "Cost of air capture GDollar/y",
+            "CAC",
+            [
+                "DACCO2"
+            ],
+            [
+                "CCCSt"
+            ],
+            null
+        ],
+        "ch4a": [
+            "CH4 in Atmosphere GtCH4",
+            "CH4A",
+            [
+                "CH4BD",
+                "CH4E"
+            ],
+            [
+                null
+            ],
+            2.5
+        ],
+        "ch4bd": [
+            "CH4 BreakDown GtCH4/y",
+            "CH4BD",
+            [
+                "CH4A"
+            ],
+            [
+                "LCH4A"
+            ],
+            null
+        ],
+        "ch4ca": [
+            "CH4 concentration in atm ppm",
+            "CH4CA",
+            [
+                "CH4A"
+            ],
+            [
+                "GCH4PP"
+            ],
+            null
+        ],
+        "ch4e": [
+            "CH4 emissions GtCH4/y",
+            "CH4E",
+            [
+                "MMCH4E",
+                "NCH4E"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ch4fpp": [
+            "CH4 forcing per ppm W/m2/ppm",
+            "CH4FPP",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2a": [
+            "CO2 in Atmosphere GtCO2",
+            "CO2A",
+            [
+                "CO2FCH4",
+                "CO2AB",
+                "CO2E"
+            ],
+            [
+                null
+            ],
+            2600
+        ],
+        "co2ab": [
+            "CO2 absorption GtCO2/y",
+            "CO2AB",
+            [
+                "LECO2A",
+                "CO2A"
+            ],
+            [
+                "CO2A1850"
+            ],
+            null
+        ],
+        "co2ca": [
+            "CO2 concentration in atm ppm",
+            "CO2CA",
+            [
+                "CO2A"
+            ],
+            [
+                "GCO2PP"
+            ],
+            null
+        ],
+        "co2e": [
+            "CO2 emissions GtCO2/y",
+            "CO2E",
+            [
+                "CO2ELULUC",
+                "DACCO2",
+                "CO2EI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2fch4": [
+            "CO2 from CH4 GtCO2/y",
+            "CO2FCH4",
+            [
+                "CH4BD"
+            ],
+            [
+                "TCO2PTCH4"
+            ],
+            null
+        ],
+        "co2fpp": [
+            "CO2 forcing per ppm W/m2/ppm",
+            "CO2FPP",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2gdp": [
+            "CO2 per GDP (kgCO2/Dollar)",
+            "CO2GDP",
+            [
+                "GDP",
+                "CO2E"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "dacco2": [
+            "Direct Air Capture of CO2 GtCO2/y",
+            "DACCO2",
+            [
+                "IPP"
+            ],
+            [
+                "DACCO22100"
+            ],
+            null
+        ],
+        "ecim": [
+            "Extra cooling from ice melt ZJ/y",
+            "ECIM",
+            [
+                "MRDI"
+            ],
+            [
+                "HRMI",
+                "AI1980TPM3I"
+            ],
+            null
+        ],
+        "ehs": [
+            "Extra heat in surface ZJ",
+            "EHS",
+            [
+                "HDO",
+                "ECIM",
+                "EWFF",
+                "HTS"
+            ],
+            [
+                null
+            ],
+            0
+        ],
+        "ewff": [
+            "Extra Warming from forcing ZJ/y",
+            "EWFF",
+            [
+                "TMMF"
+            ],
+            [
+                "GLSU"
+            ],
+            null
+        ],
+        "fch4": [
+            "Forcing from CH4 W/m2",
+            "FCH4",
+            [
+                "CH4CA",
+                "CH4FPP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fco2": [
+            "Forcing from CO2 W/m2",
+            "FCO2",
+            [
+                "CO2CA",
+                "CO2FPP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fn2o": [
+            "Forcing from N2O W/m2",
+            "FN2O",
+            [
+                "N2OFPP",
+                "N2OCA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fog": [
+            "Forcing from other gases W/m2",
+            "FOG",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ghge": [
+            "GHG emissions GtCO2e/y",
+            "GHGE",
+            [
+                "N2OE",
+                "CH4E",
+                "CO2E"
+            ],
+            [
+                "TCO2ETN2OTCO2ETCH4TCO2ETCO2"
+            ],
+            null
+        ],
+        "hdo": [
+            "Heat to deep ocean ZJ/y",
+            "HDO",
+            [
+                "EHS",
+                "TRHGA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "hts": [
+            "Heat to space ZJ/y",
+            "HTS",
+            [
+                "EHS",
+                "TRHGS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "isc": [
+            "Ice and snow cover Mha",
+            "ISC",
+            [
+                "ISCEGA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "iscega": [
+            "Ice and snow cover excl G&A Mkm2",
+            "ISCEGA",
+            [
+                "MEL"
+            ],
+            [
+                null
+            ],
+            12
+        ],
+        "kch4ekc": [
+            "kg CH4 emission per kg crop",
+            "KCH4EKC",
+            [
+                null
+            ],
+            [
+                "ERDCH4KC2022KCH4KC1980RDCH4KC"
+            ],
+            null
+        ],
+        "kn2oekf": [
+            "kg N2O emission per kg fertiliser",
+            "KN2OEKF",
+            [
+                null
+            ],
+            [
+                "RDN2OKFKN2OKF1980ERDN2OKF2022"
+            ],
+            null
+        ],
+        "leco2a": [
+            "Life of extra CO2 in atm y",
+            "LECO2A",
+            [
+                "OWLCO2"
+            ],
+            [
+                "LECO2A1980"
+            ],
+            null
+        ],
+        "mel": [
+            "Melting Mha/y",
+            "MEL",
+            [
+                "ISCEGA",
+                "MRS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "mmch4e": [
+            "Man-made CH4 emissions GtCH4/y",
+            "MMCH4E",
+            [
+                "KCH4EKC",
+                "CRSU"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "mmf": [
+            "Man-made Forcing W/m2",
+            "MMF",
+            [
+                "FN2O",
+                "FCO2",
+                "FCH4",
+                "FOG"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "mmn2oe": [
+            "Man-made N2O emissions GtN2O/y",
+            "MMN2OE",
+            [
+                "KN2OEKF",
+                "FEUS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "mrdi": [
+            "Melting rate deep ice 1/y",
+            "MRDI",
+            [
+                "MRS"
+            ],
+            [
+                "SVDR"
+            ],
+            null
+        ],
+        "mrs": [
+            "Melting rate surface 1/y",
+            "MRS",
+            [
+                "OW"
+            ],
+            [
+                "MRS1980WA1980"
+            ],
+            null
+        ],
+        "n2oa": [
+            "N2O in Atmosphere GtN2O",
+            "N2OA",
+            [
+                "N2OE",
+                "N2OBD"
+            ],
+            [
+                null
+            ],
+            1.052
+        ],
+        "n2obd": [
+            "N2O BreakDown GtN2O/y",
+            "N2OBD",
+            [
+                "N2OA"
+            ],
+            [
+                "LN2OA"
+            ],
+            null
+        ],
+        "n2oca": [
+            "N2O concentration in atm ppm",
+            "N2OCA",
+            [
+                "N2OA"
+            ],
+            [
+                "GN2OPP"
+            ],
+            null
+        ],
+        "n2oe": [
+            "N2O emissions GtN2O/y",
+            "N2OE",
+            [
+                "NN2OE",
+                "MMN2OE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "n2ofpp": [
+            "N2O forcing per ppm W/m2/ppm",
+            "N2OFPP",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "nch4e": [
+            "Natural CH4 emissions GtCH4/y",
+            "NCH4E",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "nn2oe": [
+            "Natural N2O emissions GtN2O/y",
+            "NN2OE",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ow": [
+            "OBserved WArming deg C",
+            "OW",
+            [
+                "EHS"
+            ],
+            [
+                "WFEH",
+                "EH1980WA1980"
+            ],
+            null
+        ],
+        "owlco2": [
+            "OWeoLoCO2",
+            "OWLCO2",
+            [
+                "OW"
+            ],
+            [
+                "OBWA2022SOWLCO2"
+            ],
+            null
+        ],
+        "pwa": [
+            "Perceived WArming deg C",
+            "PWA",
+            [
+                "PWA",
+                "OW"
+            ],
+            [
+                "PD"
+            ],
+            0.4
+        ],
+        "rehe": [
+            "Risk of extreme heat event (1)",
+            "REHE",
+            [
+                "OW"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tmmf": [
+            "Total man-made forcing W/m2",
+            "TMMF",
+            [
+                "WVF",
+                "MMF"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "trhga": [
+            "Transfer rate for heat going to abyss 1/y",
+            "TRHGA",
+            [
+                "OW"
+            ],
+            [
+                "TRSA1980"
+            ],
+            null
+        ],
+        "trhgs": [
+            "Transfer rate for heat going to space 1/y",
+            "TRHGS",
+            [
+                "OW",
+                "AL"
+            ],
+            [
+                "TRSS1980"
+            ],
+            null
+        ],
+        "wvc": [
+            "Water Vapor Concentration g/kg",
+            "WVC",
+            [
+                "OW"
+            ],
+            [
+                "WVC1980WA1980",
+                "OWWV"
+            ],
+            null
+        ],
+        "wvf": [
+            "Water Vapour Feedback W/m2",
+            "WVF",
+            [
+                "WVC"
+            ],
+            [
+                "WVC1980WVF1980WVWVF"
+            ],
+            null
+        ]
+    },
+    "demand": {
+        "bcil": [
+            "Bank Cash Inflow from Lending GDollar/y",
+            "BCIL",
+            [
+                "CFWB",
+                "CFGB"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "bcisni": [
+            "Bank Cash Inflow as Share of NI (1)",
+            "BCISNI",
+            [
+                "NI",
+                "BCIL"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "bitro": [
+            "Basic Income Tax Rate Owners (1)",
+            "BITRO",
+            [
+                null
+            ],
+            [
+                "ITRO1980GITROITRO2022"
+            ],
+            null
+        ],
+        "cancd": [
+            "CANCellation of Debt GDollar/y",
+            "CANCD",
+            [
+                "GD"
+            ],
+            [
+                "FGDC2022"
+            ],
+            null
+        ],
+        "cd": [
+            "Consumption Demand GDollar/y",
+            "CD",
+            [
+                "STO",
+                "STW",
+                "OC",
+                "WCD"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cfgb": [
+            "Cash Flow from Govmnt to Banks GDollar/y",
+            "CFGB",
+            [
+                "GND",
+                "GIC",
+                "GP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cfwb": [
+            "Cash Flow from Workers to Banks GDollar/y",
+            "CFWB",
+            [
+                "WIC",
+                "WND",
+                "WP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "contr": [
+            "CONTRol: (C+G+S)/NI = 1",
+            "CONTR",
+            [
+                "CSGDP",
+                "GSGDP",
+                "SSGDP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cpp": [
+            "Consumption Per Person GDollar/y",
+            "CPP",
+            [
+                "POP",
+                "CD"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "csgdp": [
+            "Consumption Share of GDP (1)",
+            "CSGDP",
+            [
+                "CD",
+                "NI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "egtf2022": [
+            "Extra General Tax From 2022 Gdollar/y",
+            "EGTF2022",
+            [
+                "NI"
+            ],
+            [
+                "EETF2022EGTRF2022EPTF2022"
+            ],
+            null
+        ],
+        "etf2022": [
+            "Extra Taxes From 2022 GDollar/y",
+            "ETF2022",
+            [
+                "ETF2022",
+                "GETF2022"
+            ],
+            [
+                "TINT"
+            ],
+            0
+        ],
+        "ettaf2022": [
+            "Extra Taxes for TAs From 2022 GDollar/y",
+            "ETTAF2022",
+            [
+                "ECTAF2022"
+            ],
+            [
+                "FETACPET"
+            ],
+            null
+        ],
+        "fgbw": [
+            "Fraction of Govmnt Budget to Workers (1)",
+            "FGBW",
+            [
+                "FGBW",
+                "GFGBW"
+            ],
+            [
+                "TINT"
+            ],
+            0.3
+        ],
+        "gcin": [
+            "Govmnt Cash INflow GDollar/y",
+            "GCIN",
+            [
+                "CFGB",
+                "GNI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gd": [
+            "Govmnt Debt Gdollar",
+            "GD",
+            [
+                "GND",
+                "CANCD",
+                "GP"
+            ],
+            [
+                null
+            ],
+            17975.68
+        ],
+        "gdb": [
+            "Govmnt Debt Burden y",
+            "GDB",
+            [
+                "GD",
+                "NI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "getf2022": [
+            "Goal for Extra Taxes From 2022 GDollar/y",
+            "GETF2022",
+            [
+                "ETTAF2022",
+                "EGTF2022"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gfgbw": [
+            "Goal for Fraction of Govmnt Budget to Workers (1)",
+            "GFGBW",
+            [
+                null
+            ],
+            [
+                "ETGBWFT1980"
+            ],
+            null
+        ],
+        "gfsni": [
+            "Govmnt Finance as Share of NI (1)",
+            "GFSNI",
+            [
+                "GIC",
+                "GP",
+                "NI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ggi": [
+            "Govmnt Gross Income GDollar/y",
+            "GGI",
+            [
+                "OT",
+                "IC2022",
+                "STO",
+                "STW",
+                "WT"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ggis": [
+            "Govmnt Gross Income (as Share of NI)",
+            "GGIS",
+            [
+                "GGI",
+                "NI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gic": [
+            "Govmnt Interest Cost GDollar/y",
+            "GIC",
+            [
+                "GD",
+                "GBC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gipc": [
+            "Govmnt Investment in Public Capacity GDollar/y",
+            "GIPC",
+            [
+                "PGCIN",
+                "GPU"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gnd": [
+            "Govmnt New Debt GDollar/y",
+            "GND",
+            [
+                "NI",
+                "GD",
+                "MGD"
+            ],
+            [
+                "GDDPGSF2022"
+            ],
+            null
+        ],
+        "gni": [
+            "Govmnt Net Income GDollar/y",
+            "GNI",
+            [
+                "t_pay",
+                "OT",
+                "IC2022",
+                "ST",
+                "STO",
+                "STW",
+                "WT",
+                "GGI"
+            ],
+            [
+                null
+            ],
+            6531.07
+        ],
+        "gnisni": [
+            "Govmnt Net Income as Share of NI (1)",
+            "GNISNI",
+            [
+                "NI",
+                "GNI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gp": [
+            "Govmnt Payback GDollar/y",
+            "GP",
+            [
+                "GD"
+            ],
+            [
+                "GPP"
+            ],
+            null
+        ],
+        "gpu": [
+            "Govmnt PUrchases GDollar/y",
+            "GPU",
+            [
+                "PGCIN"
+            ],
+            [
+                "GCF"
+            ],
+            null
+        ],
+        "gs": [
+            "Govmnt Spending GDollar/y",
+            "GS",
+            [
+                "GIPC",
+                "GPU"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gsgdp": [
+            "Govmnt Share of GDP (1)",
+            "GSGDP",
+            [
+                "NI",
+                "GS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ic2022": [
+            "Income from Commons from 2022 GDollar/y",
+            "IC2022",
+            [
+                "IPP",
+                "NI"
+            ],
+            [
+                "GEIC"
+            ],
+            null
+        ],
+        "ineq": [
+            "INEQuality (1)",
+            "INEQ",
+            [
+                "OOIAT",
+                "WIAT"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ineqi": [
+            "INEQuality Index (1980=1)",
+            "INEQI",
+            [
+                "INEQ"
+            ],
+            [
+                "INEQ1980"
+            ],
+            null
+        ],
+        "ito": [
+            "Income Tax Owners (1)",
+            "ITO",
+            [
+                "BITRO",
+                "NI",
+                "WSO"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "itw": [
+            "Income Tax Workers (1)",
+            "ITW",
+            [
+                "NI",
+                "WSO"
+            ],
+            [
+                "BITRW"
+            ],
+            null
+        ],
+        "mgd": [
+            "Max Govmnt Debt GDollar",
+            "MGD",
+            [
+                "NI"
+            ],
+            [
+                "MGDB"
+            ],
+            null
+        ],
+        "mwd": [
+            "Max Workers Debt GDollar",
+            "MWD",
+            [
+                "WI"
+            ],
+            [
+                "MWDB"
+            ],
+            null
+        ],
+        "oc": [
+            "Owner Consumption GDollar/y",
+            "OC",
+            [
+                "POCI",
+                "OCF"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ocf": [
+            "Owner Consumptin Fraction (1)",
+            "OCF",
+            [
+                "OSF"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ocin": [
+            "Owner Cash INflow GDollar/y",
+            "OCIN",
+            [
+                "OOIAT"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "oi": [
+            "Owner Income GDollar/y",
+            "OI",
+            [
+                "NI",
+                "WSO"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ooiat": [
+            "Owner Operating Income After Tax GDollar/y",
+            "OOIAT",
+            [
+                "OT",
+                "OI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "os": [
+            "Owner Savings GDollar/y",
+            "OS",
+            [
+                "POCI",
+                "OC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "osf": [
+            "Owner Savings Fraction (1)",
+            "OSF",
+            [
+                "EGDPP"
+            ],
+            [
+                "OSF1980GDPOSRGDPP1980"
+            ],
+            null
+        ],
+        "ot": [
+            "Owner Taxes GDollar/y",
+            "OT",
+            [
+                "ITO",
+                "ETF2022"
+            ],
+            [
+                "FETPO"
+            ],
+            null
+        ],
+        "otr": [
+            "Owner Tax Rate (1)",
+            "OTR",
+            [
+                "OT",
+                "OI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "pgcin": [
+            "Permanent Govmnt Cash INflow GDollar/y",
+            "PGCIN",
+            [
+                "GCIN",
+                "PGCIN"
+            ],
+            [
+                "TAB"
+            ],
+            5400
+        ],
+        "poci": [
+            "Permanent Owner Cash Inflow GDollar/y",
+            "POCI",
+            [
+                "POCI",
+                "OCIN"
+            ],
+            [
+                "TAOC"
+            ],
+            7081
+        ],
+        "pwcin": [
+            "Permanent Worker Cash INflow GDollar/y",
+            "PWCIN",
+            [
+                "PWCIN",
+                "WCIN"
+            ],
+            [
+                "TAWC"
+            ],
+            13000
+        ],
+        "ssgdp": [
+            "Savings Share of GDP (1)",
+            "SSGDP",
+            [
+                "TS",
+                "NI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "st": [
+            "Sales Tax GDollar/y",
+            "ST",
+            [
+                "STO",
+                "STW"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "sto": [
+            "Sales Tax Owners GDollar/y",
+            "STO",
+            [
+                "OC"
+            ],
+            [
+                "sales_tax_r"
+            ],
+            null
+        ],
+        "stw": [
+            "Sales Tax Workers GDollar/y",
+            "STW",
+            [
+                "WCD"
+            ],
+            [
+                "sales_tax_r"
+            ],
+            null
+        ],
+        "t_pay": [
+            "Transfer Payments GDollar/y",
+            "TP",
+            [
+                "OT",
+                "FGBW",
+                "IC2022",
+                "STO",
+                "STW",
+                "WT",
+                "GGI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tpp": [
+            "Total Purchasing Power GDollar/y",
+            "TPP",
+            [
+                "GCIN",
+                "ST",
+                "OCIN",
+                "WCIN"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ts": [
+            "Total Savings GDollar/y",
+            "TS",
+            [
+                "OS",
+                "WS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wcd": [
+            "Worker consumption demand GDollar/y",
+            "WCD",
+            [
+                "PWCIN"
+            ],
+            [
+                "WCF"
+            ],
+            null
+        ],
+        "wcin": [
+            "Worker Cash INflow GDollar/y",
+            "WCIN",
+            [
+                "CFWB",
+                "WIAT"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wd": [
+            "Workers Debt GDollar",
+            "WD",
+            [
+                "WND",
+                "WP"
+            ],
+            [
+                null
+            ],
+            7406.88
+        ],
+        "wdb": [
+            "Worker Debt Burden y",
+            "WDB",
+            [
+                "WD",
+                "WIAT"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wdi": [
+            "Worker Disposable Income kDollar/p/y",
+            "WDI",
+            [
+                "PWCIN",
+                "WF"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wfcsi": [
+            "Worker Finance Cost as Share of Income (1)",
+            "WFCSI",
+            [
+                "CFWB",
+                "WIAT"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wi": [
+            "Worker Income GDollar/y",
+            "WI",
+            [
+                "NI",
+                "WSO"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wiat": [
+            "Worker Income After Tax GDollar/y",
+            "WIAT",
+            [
+                "t_pay",
+                "WI",
+                "WT"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wic": [
+            "Worker Interest Cost GDollar/y",
+            "WIC",
+            [
+                "WBC",
+                "WD"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wnd": [
+            "Workers New Debt GDollar/y",
+            "WND",
+            [
+                "WD",
+                "MWD"
+            ],
+            [
+                "WDP"
+            ],
+            null
+        ],
+        "wp": [
+            "Workers Payback GDollar/y",
+            "WP",
+            [
+                "WD"
+            ],
+            [
+                "WPP"
+            ],
+            null
+        ],
+        "ws": [
+            "Worker Savings GDollar/y",
+            "WS",
+            [
+                "PWCIN",
+                "WCD"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wt": [
+            "Worker Taxes GDollar/y",
+            "WT",
+            [
+                "ETF2022",
+                "ITW"
+            ],
+            [
+                "FETPO"
+            ],
+            null
+        ],
+        "wtr": [
+            "Worker Tax Rate (1)",
+            "WTR",
+            [
+                "WI",
+                "WT"
+            ],
+            [
+                null
+            ],
+            null
+        ]
+    },
+    "energy": {
+        "acswcf": [
+            "ACcumulated Sun and Wind Capacity from 1980 GW",
+            "ACSWCF",
+            [
+                "ASWC"
+            ],
+            [
+                null
+            ],
+            10
+        ],
+        "afec": [
+            "Addition of fossil el capacity GW/y",
+            "AFEC",
+            [
+                "DFECC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "arec": [
+            "Addition of renewable el capacity GW/y",
+            "AREC",
+            [
+                "DRECC",
+                "DIREC"
+            ],
+            [
+                "RECT"
+            ],
+            null
+        ],
+        "aswc": [
+            "Addition of sun and wind capacity GW/y",
+            "ASWC",
+            [
+                "AREC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "capexfeg": [
+            "CAPEX fossil el GDollar/y",
+            "CAPEXFEG",
+            [
+                "AFEC"
+            ],
+            [
+                "CAPEXFED"
+            ],
+            null
+        ],
+        "capexred": [
+            "CAPEX renewable el dollar/W",
+            "CAPEXRED",
+            [
+                "CISWC"
+            ],
+            [
+                "CAPEXRE1980"
+            ],
+            null
+        ],
+        "capexreg": [
+            "CAPEX renewable el Gdollar/y",
+            "CAPEXREG",
+            [
+                "CAPEXRED",
+                "AREC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cccsg": [
+            "Cost of CCS GDollar/y",
+            "CCCSG",
+            [
+                "ICCSC"
+            ],
+            [
+                "CCCSt"
+            ],
+            null
+        ],
+        "ce": [
+            "Cost of energy GDollar/y",
+            "CE",
+            [
+                "CG",
+                "CFFFNEU",
+                "CAC",
+                "CCCSG",
+                "CEL",
+                "CNE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cel": [
+            "Cost of electricity GDollar/y",
+            "CEL",
+            [
+                "CRE",
+                "CFE",
+                "CNEL"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cesgdp": [
+            "Cost of energy as share of GDP (1)",
+            "CESGDP",
+            [
+                "CE",
+                "GDP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cfe": [
+            "Cost of fossil electricity GDollar/y",
+            "CFE",
+            [
+                "OPEXFEG",
+                "CAPEXFEG"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cfffneu": [
+            "Cost of Fossil Fuel For Non-El Use Gdollar/y",
+            "CFFFNEU",
+            [
+                "DFFFNEU"
+            ],
+            [
+                "TCFFFNEU"
+            ],
+            null
+        ],
+        "cg": [
+            "Cost of grid GDollar/y",
+            "CG",
+            [
+                "EP"
+            ],
+            [
+                "TC"
+            ],
+            null
+        ],
+        "ciswc": [
+            "Cost index for sun and wind capacity (1)",
+            "CISWC",
+            [
+                "NDSWC"
+            ],
+            [
+                "CRDSWC"
+            ],
+            null
+        ],
+        "cne": [
+            "Cost of new electrification GDollar/y",
+            "CNE",
+            [
+                "ERDNEFFFNE"
+            ],
+            [
+                "ECRUNEFF"
+            ],
+            null
+        ],
+        "cnel": [
+            "Cost of Nuclear ELectricity Gdollar/y",
+            "CNEL",
+            [
+                "NEP"
+            ],
+            [
+                "CNED"
+            ],
+            null
+        ],
+        "co2ei": [
+            "CO2 from energy and industry GtCO2/y",
+            "CO2EI",
+            [
+                "CO2EP",
+                "CO2NFIP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2empp": [
+            "CO2 EMissions per person tCO2/y",
+            "CO2EMPP",
+            [
+                "POP",
+                "CO2EI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2ep": [
+            "CO2 from energy production GtCO2/y",
+            "CO2EP",
+            [
+                "UFF",
+                "TCO2PT",
+                "FCO2SCCS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2nfip": [
+            "CO2 from non-fossil industrial processes GtCO2/y",
+            "CO2NFIP",
+            [
+                "POP",
+                "NFCO2PP",
+                "FCO2SCCS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cre": [
+            "Cost of renewable electricity GDollar/y",
+            "CRE",
+            [
+                "CAPEXREG",
+                "OPEXREG"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "de": [
+            "Demand for electricity TWh/y",
+            "DE",
+            [
+                "DEBNE",
+                "EIDEFNE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "debne": [
+            "Demand for electricity before NE TWh/y",
+            "DEBNE",
+            [
+                "POP",
+                "TPPUEBEE",
+                "EEPI2022"
+            ],
+            [
+                "NIEE"
+            ],
+            null
+        ],
+        "dfe": [
+            "Demand for fossil electricity TWh/y",
+            "DFE",
+            [
+                "LCEP",
+                "DE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "dfec": [
+            "Desired fossil el capacity GW",
+            "DFEC",
+            [
+                "DFE"
+            ],
+            [
+                "EKHPY"
+            ],
+            null
+        ],
+        "dfecc": [
+            "Desired fossil el capacity change GW/y",
+            "DFECC",
+            [
+                "DIFEC",
+                "FEC",
+                "DFEC"
+            ],
+            [
+                "FECCT"
+            ],
+            null
+        ],
+        "dfffneu": [
+            "Demand for fossil fuel for non-el use Mtoe/y",
+            "DFFFNEU",
+            [
+                "ERDNEFFFNE",
+                "DFFNEUBNE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "dffneubne": [
+            "Demand for fossil fuel for non-el use before NE Mtoe/y",
+            "DFFNEUBNE",
+            [
+                "POP",
+                "TPPUFFNEUBEE",
+                "EEPI2022"
+            ],
+            [
+                "NIEE"
+            ],
+            null
+        ],
+        "difec": [
+            "DIscard of Fossil El Capacity GW/y",
+            "DIFEC",
+            [
+                "LFEC",
+                "FEC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "direc": [
+            "Discard of renewable el capacity GW/y",
+            "DIREC",
+            [
+                "REC"
+            ],
+            [
+                "LREC"
+            ],
+            null
+        ],
+        "drec": [
+            "Desired renewable el capacity GW",
+            "DREC",
+            [
+                "DSRE"
+            ],
+            [
+                "RCUT"
+            ],
+            null
+        ],
+        "drecc": [
+            "Desired renewable el capacity change GW",
+            "DRECC",
+            [
+                "DREC",
+                "REC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "dres": [
+            "Desired renewable electricity share (1)",
+            "DRES",
+            [
+                "IPP"
+            ],
+            [
+                "REFF1980GREFREFF2022"
+            ],
+            null
+        ],
+        "dsre": [
+            "Desired supply of renewable electricity TWh/y",
+            "DSRE",
+            [
+                "DRES",
+                "DE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ecetsgdp": [
+            "Extra cost of Energy Turnaround as share of GDP (1)",
+            "ECETSGDP",
+            [
+                "CE",
+                "GDP",
+                "TCEN"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "eepi2022": [
+            "Extra energy productivity index 2022=1",
+            "EEPI2022",
+            [
+                "IEEPI"
+            ],
+            [
+                null
+            ],
+            1
+        ],
+        "eidefne": [
+            "Extra increase in demand for electricity from NE TWh/y",
+            "EIDEFNE",
+            [
+                "ERDNEFFFNE"
+            ],
+            [
+                "EUEPRUNEFF"
+            ],
+            null
+        ],
+        "elb": [
+            "ELectricity balance (1)",
+            "ELB",
+            [
+                "EP",
+                "DE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ep": [
+            "Electricity production TWh/y",
+            "EP",
+            [
+                "NEP",
+                "REP",
+                "FEP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "erdnefffne": [
+            "Extra reduction in demand for non-el fossil fuel from NE Mtoe/y",
+            "ERDNEFFFNE",
+            [
+                "FNE",
+                "DFFNEUBNE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "eu": [
+            "Energy use Mtoe/y",
+            "EU",
+            [
+                "EP",
+                "RHP",
+                "FTWEPMt",
+                "DFFFNEU"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "eupp": [
+            "Energy use per person toe/p/y",
+            "EUPP",
+            [
+                "POP",
+                "EU"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fco2sccs": [
+            "Fraction of CO2-sources with CCS (1)",
+            "FCO2SCCS",
+            [
+                "IPP"
+            ],
+            [
+                "GFCO2SCCSFCO2SCCS2022"
+            ],
+            null
+        ],
+        "fcut": [
+            "Fossil capacity up-time kh/y",
+            "FCUT",
+            [
+                "FEC",
+                "DFE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fcutlofc": [
+            "FCUTeoLOFC (1)",
+            "FCUTLOFC",
+            [
+                "FCUT"
+            ],
+            [
+                "sFCUTLOFCEKHPY"
+            ],
+            null
+        ],
+        "fec": [
+            "Fossil electricity capacity GW",
+            "FEC",
+            [
+                "AFEC",
+                "DIFEC"
+            ],
+            [
+                null
+            ],
+            980
+        ],
+        "fep": [
+            "Fossil Electricity Production TWh/y",
+            "FEP",
+            [
+                "FCUT",
+                "FEC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ffe": [
+            "Fossil fuels for electricity Mtoe/y",
+            "FFE",
+            [
+                "FEP",
+                "FTWEPMt"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ffpne": [
+            "Fraction fossil plus nuclear electricity (1)",
+            "FFPNE",
+            [
+                "NEP",
+                "FEP",
+                "EP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fne": [
+            "Fraction new electrification (1)",
+            "FNE",
+            [
+                "IPP"
+            ],
+            [
+                "GFNE",
+                "FNE2022FNE1980"
+            ],
+            null
+        ],
+        "ftwepmt": [
+            "4 TWh-el per Mtoe",
+            "FTWEPMt",
+            [
+                "TWEPEJEE"
+            ],
+            [
+                "MTPEJCE"
+            ],
+            null
+        ],
+        "ghmh2": [
+            "Green hydrogen MtH2/y",
+            "GHMH2",
+            [
+                "REP"
+            ],
+            [
+                "FREHKWEPKGH2"
+            ],
+            null
+        ],
+        "ghmt": [
+            "Green hydrogen Mtoe/y",
+            "GHMt",
+            [
+                "GHMH2"
+            ],
+            [
+                "TPTH2"
+            ],
+            null
+        ],
+        "iccsc": [
+            "Installed CCS capacity GtCO2/y",
+            "ICCSC",
+            [
+                "CO2EP",
+                "CO2NFIP",
+                "FCO2SCCS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ieepi": [
+            "Increase in extra energy productivity index 1/y",
+            "IEEPI",
+            [
+                "eepi2022"
+            ],
+            [
+                "EROCEPA2022"
+            ],
+            null
+        ],
+        "iiasafep": [
+            "IIASA Fossil energy production EJ/yr",
+            "IIASAFEP",
+            [
+                "UFF"
+            ],
+            [
+                "MTPEJCE"
+            ],
+            null
+        ],
+        "iiasarep": [
+            "IIASA Renewable energy production EJ/yr",
+            "IIASAREP",
+            [
+                "REP",
+                "RHP",
+                "TWEPEJEE"
+            ],
+            [
+                "MTPEJCE"
+            ],
+            null
+        ],
+        "lcep": [
+            "Low-carbon el production TWh/y",
+            "LCEP",
+            [
+                "NEP",
+                "REP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "lfec": [
+            "Life of fossil el capacity y",
+            "LFEC",
+            [
+                "FCUTLOFC"
+            ],
+            [
+                "NLFEC"
+            ],
+            null
+        ],
+        "nc": [
+            "Nuclear capacity GW",
+            "NC",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ndswc": [
+            "Number of doublings in sun and wind capacity (1)",
+            "NDSWC",
+            [
+                "ACSWCF"
+            ],
+            [
+                "SWC1980"
+            ],
+            null
+        ],
+        "nep": [
+            "Nuclear electricity production TWh/y",
+            "NEP",
+            [
+                "NC"
+            ],
+            [
+                "NCUT"
+            ],
+            null
+        ],
+        "nfco2pp": [
+            "Non-fossil CO2 per person tCO2/p/y",
+            "NFCO2PP",
+            [
+                "GDPP"
+            ],
+            [
+                "MNFCO2PP"
+            ],
+            null
+        ],
+        "opexfeg": [
+            "OPEX fossil el GDollar/y",
+            "OPEXFEG",
+            [
+                "FEP"
+            ],
+            [
+                "OPEXFED"
+            ],
+            null
+        ],
+        "opexreg": [
+            "OPEX renewable el Gdollar/y",
+            "OPEXREG",
+            [
+                "REP"
+            ],
+            [
+                "OPEXRED"
+            ],
+            null
+        ],
+        "rec": [
+            "Renewable electricity capacity GW",
+            "REC",
+            [
+                "AREC",
+                "DIREC"
+            ],
+            [
+                null
+            ],
+            300
+        ],
+        "rectec": [
+            "Ratio of Energy cost to Trad Energy cost (1)",
+            "RECTEC",
+            [
+                "CE",
+                "TCEN"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "rep": [
+            "Renewable electricity production TWh/y",
+            "REP",
+            [
+                "REC"
+            ],
+            [
+                "RCUT"
+            ],
+            null
+        ],
+        "rhp": [
+            "Renewable heat production Mtoe/y",
+            "RHP",
+            [
+                "GHMt"
+            ],
+            [
+                "BEM"
+            ],
+            null
+        ],
+        "tceg": [
+            "Traditional cost of electricity GDollar/y",
+            "TCEG",
+            [
+                "DEBNE"
+            ],
+            [
+                "TCE",
+                "AFMCM"
+            ],
+            null
+        ],
+        "tcen": [
+            "Traditional Cost of ENergy Gdollar/y",
+            "TCEN",
+            [
+                "TCEG",
+                "TCFFFNEUG",
+                "TGC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tcensgdp": [
+            "Traditional cost of energy as share of GDP (1)",
+            "TCENSGDP",
+            [
+                "GDP",
+                "TCEN"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tcfffneug": [
+            "Traditional cost of fossil fuel for non-el use Gdollar/y",
+            "TCFFFNEUG",
+            [
+                "DFFNEUBNE"
+            ],
+            [
+                "TCFFFNEUAFMCM"
+            ],
+            null
+        ],
+        "tco2pt": [
+            "tCO2 per toe",
+            "TCO2PT",
+            [
+                null
+            ],
+            [
+                "ROCTCO2PT"
+            ],
+            null
+        ],
+        "tgc": [
+            "Traditional grid cost GDollar/y",
+            "TGC",
+            [
+                "DEBNE"
+            ],
+            [
+                "TC"
+            ],
+            null
+        ],
+        "tppuebee": [
+            "Traditional per person use of electricity before EE MWh/p/y",
+            "TPPUEBEE",
+            [
+                "GDPP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tppuffneubee": [
+            "Traditional per person use of fossil fuels for non-el-use before EE toe/p/y",
+            "TPPUFFNEUBEE",
+            [
+                "GDPP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "twepejee": [
+            "TWh-el per EJ - engineering equivalent",
+            "TWEPEJEE",
+            [
+                null
+            ],
+            [
+                "EFPPTWHPEJCE"
+            ],
+            null
+        ],
+        "uff": [
+            "Use of fossil fuels Mtoe/y",
+            "UFF",
+            [
+                "DFFFNEU",
+                "FFE"
+            ],
+            [
+                null
+            ],
+            null
+        ]
+    },
+    "finance": {
+        "cbc": [
+            "Corporate Borrowing Cost 1/y",
+            "CBC",
+            [
+                "CCSD",
+                "NCCR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cbc1980": [
+            "Corporate Borrowing Cost in 1980 1/y",
+            "CBC1980",
+            [
+                "NCCR"
+            ],
+            [
+                "NBOM",
+                "NBBMNSR"
+            ],
+            null
+        ],
+        "cbsr": [
+            "Central Bank Signal Rate 1/y",
+            "CBSR",
+            [
+                "CSR"
+            ],
+            [
+                null
+            ],
+            0.02
+        ],
+        "ccsd": [
+            "Cost of Capital for Secured Debt 1/y",
+            "CCSD",
+            [
+                "CCSD",
+                "TIR"
+            ],
+            [
+                "NBOM",
+                "FSRT"
+            ],
+            0.04
+        ],
+        "csr": [
+            "Change in Signal Rate 1/yy",
+            "CSR",
+            [
+                "ISR",
+                "CBSR"
+            ],
+            [
+                "SRAT"
+            ],
+            null
+        ],
+        "elti": [
+            "Expected Long Term Inflation 1/y",
+            "ELTI",
+            [
+                "PI",
+                "ELTI"
+            ],
+            [
+                "IEFT"
+            ],
+            0.02
+        ],
+        "gbc": [
+            "Govmnt Borrowing Cost 1/y",
+            "GBC",
+            [
+                "TIR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "isr": [
+            "Indicated Signal Rate 1/y",
+            "ISR",
+            [
+                "PI",
+                "PU"
+            ],
+            [
+                "NSR",
+                "INSR",
+                "UTIT",
+                "UNSR"
+            ],
+            null
+        ],
+        "nccr": [
+            "Normal Corporate Credit Risk 1/y",
+            "NCCR",
+            [
+                "OGR"
+            ],
+            [
+                "GRCR"
+            ],
+            null
+        ],
+        "pi": [
+            "Perceived Inflation CB 1/y",
+            "PI",
+            [
+                "PI",
+                "IR"
+            ],
+            [
+                "IPTCB"
+            ],
+            0.02
+        ],
+        "pu": [
+            "Perceived Unemployment CB (1)",
+            "PU",
+            [
+                "PU",
+                "UR"
+            ],
+            [
+                "UPTCB"
+            ],
+            0.0327
+        ],
+        "tgir": [
+            "10-yr Govmnt Interest Rate 1/y",
+            "TGIR",
+            [
+                "ELTI",
+                "GBC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tir": [
+            "3m Interest Rate 1/y",
+            "TIR",
+            [
+                "CBSR"
+            ],
+            [
+                "NBBM"
+            ],
+            null
+        ],
+        "wbc": [
+            "Worker Borrowing Cost 1/y",
+            "WBC",
+            [
+                "CCSD"
+            ],
+            [
+                null
+            ],
+            null
+        ]
+    },
+    "food_and_land": {
+        "acy": [
+            "Average Crop Yield t-crop/ha/y",
+            "ACY",
+            [
+                "DCYCA",
+                "SQICA",
+                "WELY",
+                "CO2ELY",
+                "FRA"
+            ],
+            [
+                "CYRA"
+            ],
+            null
+        ],
+        "afsra": [
+            "Amount of Fertilizer Saved in Reg Ag kgN/ha/y",
+            "AFSRA",
+            [
+                null
+            ],
+            [
+                "SFU"
+            ],
+            null
+        ],
+        "alfl": [
+            "Acceptable Loss of Forestry Land (1)",
+            "ALFL",
+            [
+                "FFLR"
+            ],
+            [
+                "TFFLR"
+            ],
+            null
+        ],
+        "bala": [
+            "BArren LAnd Mha",
+            "BALA",
+            [
+                "CRLO"
+            ],
+            [
+                null
+            ],
+            3000
+        ],
+        "bius": [
+            "BIofuels USe Mtoe/y",
+            "BIUS",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cem": [
+            "Cropland Expansion Multiplier (1)",
+            "CEM",
+            [
+                null
+            ],
+            [
+                "SSP2LMA"
+            ],
+            null
+        ],
+        "cira": [
+            "Cost Index for Regenerative Agriculture (1)",
+            "CIRA",
+            [
+                "NDRA"
+            ],
+            [
+                "CRDRA"
+            ],
+            null
+        ],
+        "co2afl": [
+            "CO2 Absorption in Forestry Land GtCO2/y",
+            "CO2AFL",
+            [
+                "CO2AFLH",
+                "FOLA",
+                "WELY",
+                "CO2ELY"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2aflh": [
+            "CO2 Absorption in Forestry Land tCO2/ha/y",
+            "CO2AFLH",
+            [
+                "FAM"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2eluluc": [
+            "CO2 Emissions from LULUC GtCO2/y",
+            "CO2ELULUC",
+            [
+                "ECO2ARA",
+                "CO2AFL",
+                "CO2RFC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "co2ely": [
+            "CO2 Effect on Land Yield (1)",
+            "CO2ELY",
+            [
+                "CO2CA"
+            ],
+            [
+                "CO2CEACYCO2C2022"
+            ],
+            null
+        ],
+        "co2rfc": [
+            "CO2 Release from Forest Cut GtCO2/y",
+            "CO2RFC",
+            [
+                "OGRE",
+                "CREX"
+            ],
+            [
+                "CO2RHFC"
+            ],
+            null
+        ],
+        "cofe": [
+            "COst of FErtilizer Gdollar/y",
+            "COFE",
+            [
+                "FEUS"
+            ],
+            [
+                "CTF"
+            ],
+            null
+        ],
+        "cofo": [
+            "COst of FOod Gdollar/y",
+            "COFO",
+            [
+                "CRA",
+                "COFE",
+                "GDP"
+            ],
+            [
+                "AFGDP"
+            ],
+            null
+        ],
+        "cra": [
+            "Cost of Regenerative Agriculture Gdollar/y",
+            "CRA",
+            [
+                "ECRA",
+                "RAA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "crba": [
+            "CRop BAlance (1)",
+            "CRBA",
+            [
+                "CRUS",
+                "DCS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "crbi": [
+            "CRops for BIofuel Mt-crop/y",
+            "CRBI",
+            [
+                "BIUS"
+            ],
+            [
+                "TCTB"
+            ],
+            null
+        ],
+        "crde": [
+            "CRop DEmand Mt-crop/y",
+            "CRDE",
+            [
+                "TUCERM",
+                "FERM",
+                "CRBI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "crex": [
+            "CRopland EXpansion Mha/y",
+            "CREX",
+            [
+                "CREXR",
+                "FOLA",
+                "ALFL",
+                "CRLA",
+                "CEM"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "crexr": [
+            "CRopland EXpansion Rate 1/y",
+            "CREXR",
+            [
+                "PCB"
+            ],
+            [
+                "CBECLE"
+            ],
+            null
+        ],
+        "crla": [
+            "CRopLAnd Mha",
+            "CRLA",
+            [
+                "UREX",
+                "CRLO",
+                "CREX"
+            ],
+            [
+                null
+            ],
+            1450
+        ],
+        "crlo": [
+            "CRopland LOss Mha/y",
+            "CRLO",
+            [
+                "CRLA",
+                "LER"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "crsu": [
+            "CRop SUpply (after 20 % waste) Mt-crop/y",
+            "CRSU",
+            [
+                "ACY",
+                "CRLA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "crus": [
+            "CRop USe Mt/y",
+            "CRUS",
+            [
+                "CRSU",
+                "CWR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "crusp": [
+            "CRop USe per Person t-crop/p/y",
+            "CRUSP",
+            [
+                "POP",
+                "CRUS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "csqca": [
+            "Change in Soil Quality in Conv Ag t-crop/ha/y/y",
+            "CSQCA",
+            [
+                "SQICA",
+                "ROCSQCA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "csra": [
+            "Crop Supply Reg Ag Mt-crop/y",
+            "CSRA",
+            [
+                "CRLA",
+                "FRA"
+            ],
+            [
+                "CYRA"
+            ],
+            null
+        ],
+        "cwr": [
+            "Crop Waste Reduction (1)",
+            "CWR",
+            [
+                "IPP"
+            ],
+            [
+                "GCWR"
+            ],
+            null
+        ],
+        "dcs": [
+            "Desired Crop Supply Mt-crop/y",
+            "DCS",
+            [
+                "CRDE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "dcsca": [
+            "Desired Crop Supply Conv Ag Mt-crop/y",
+            "DCSCA",
+            [
+                "DCS",
+                "CSRA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "dcyca": [
+            "Desired Crop Yield in Conv Ag t-crop/ha/y",
+            "DCYCA",
+            [
+                "CRLA",
+                "DCSCA",
+                "FRA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "drm": [
+            "Demand for Red Meat Mt-red-meat/y",
+            "DRM",
+            [
+                "POP",
+                "DRMP",
+                "FNRM"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "drmp": [
+            "Demand for Red Meat per Person kg-red-meat/p/y",
+            "DRMP",
+            [
+                "TURMP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ecft": [
+            "Extra Cost of Food Turnaround Gdollar/y",
+            "ECFT",
+            [
+                "CRA",
+                "FCR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ecftsgdp": [
+            "Extra Cost of Food Turnaround as Share of GDP (1)",
+            "ECFTSGDP",
+            [
+                "ECFT",
+                "GDP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "eco2ara": [
+            "Extra CO2 Absorption in Reg Ag GtCO2/y",
+            "ECO2ARA",
+            [
+                "RAA"
+            ],
+            [
+                "CO2ARA"
+            ],
+            null
+        ],
+        "ecra": [
+            "Extra Cost of Reg Ag dollar/ha/y",
+            "ECRA",
+            [
+                "CIRA"
+            ],
+            [
+                "ECRA22"
+            ],
+            null
+        ],
+        "fam": [
+            "Forest Absorption Multipler (1)",
+            "FAM",
+            [
+                null
+            ],
+            [
+                "MFAMSSP2LMA"
+            ],
+            null
+        ],
+        "fcr": [
+            "Fertilizer Cost Reduction Gdollar/y",
+            "FCR",
+            [
+                "AFSRA",
+                "RAA"
+            ],
+            [
+                "CTF"
+            ],
+            null
+        ],
+        "feer": [
+            "Fertilizer Effect on Erosion Rate (1)",
+            "FEER",
+            [
+                "FUCA"
+            ],
+            [
+                "FUELER",
+                "SFU"
+            ],
+            null
+        ],
+        "ferm": [
+            "FEed for Red Meat Mt-crop/y",
+            "FERM",
+            [
+                "RMF"
+            ],
+            [
+                "KCKRM"
+            ],
+            null
+        ],
+        "feus": [
+            "FErtilizer USe Mt/y",
+            "FEUS",
+            [
+                "FUCA",
+                "CRLA",
+                "FRA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ffi": [
+            "Food Footprint Index (1980=1)",
+            "FFI",
+            [
+                "FOFO"
+            ],
+            [
+                "FF80"
+            ],
+            null
+        ],
+        "fflr": [
+            "Fraction Forestry Land Remaining (1)",
+            "FFLR",
+            [
+                "FOLA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fflreogrr": [
+            "FFLReoOGRR",
+            "FFLREOGRR",
+            [
+                "FFLR"
+            ],
+            [
+                "FFLREOGRRMTFFLR"
+            ],
+            null
+        ],
+        "fnrm": [
+            "Fraction New Red Meat (1)",
+            "FNRM",
+            [
+                "IPP"
+            ],
+            [
+                "GFNRM"
+            ],
+            null
+        ],
+        "fofo": [
+            "FOod FOotprint",
+            "FOFO",
+            [
+                "CRLA",
+                "FEUS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fola": [
+            "FOrestry LAnd Mha",
+            "FOLA",
+            [
+                "NFL",
+                "CREX"
+            ],
+            [
+                null
+            ],
+            1100
+        ],
+        "fpi": [
+            "Fertilizer Productivity Index (1980=1)",
+            "FPI",
+            [
+                null
+            ],
+            [
+                "ROCFP"
+            ],
+            null
+        ],
+        "fra": [
+            "Fraction Regenerative Agriculture (1)",
+            "FRA",
+            [
+                "IPP"
+            ],
+            [
+                "GFRA"
+            ],
+            null
+        ],
+        "fspi": [
+            "Food Sector Productivity Index (1980=1)",
+            "FSPI",
+            [
+                null
+            ],
+            [
+                "EROCFSPROCFSP"
+            ],
+            null
+        ],
+        "fuca": [
+            "Fertilizer Use in Conv Ag kgN/ha/y",
+            "FUCA",
+            [
+                "TFUCA",
+                "FPI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fup": [
+            "FErtilizer USe per Person kg/p/y",
+            "FUP",
+            [
+                "POP",
+                "FEUS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gly": [
+            "Grazing Land Yield kg-red-meat/ha/y",
+            "GLY",
+            [
+                "GLY80",
+                "co2ca",
+                "OW"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gly80": [
+            "Grazing Land Yied in 1980 kg-red-meat/ha/y",
+            "GLY80",
+            [
+                "WELY",
+                "CO2ELY"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "grla": [
+            "GRazing LAnd Mha",
+            "GRLA",
+            [
+                "NGL"
+            ],
+            [
+                null
+            ],
+            3300
+        ],
+        "iul": [
+            "Indicated Urban Land Mha",
+            "IUL",
+            [
+                "POP"
+            ],
+            [
+                "ULP"
+            ],
+            null
+        ],
+        "ler": [
+            "Land Erosion Rate 1/y",
+            "LER",
+            [
+                "FEER",
+                "LERM"
+            ],
+            [
+                "LER80"
+            ],
+            null
+        ],
+        "lerm": [
+            "Land ERosion Multiplier (1)",
+            "LERM",
+            [
+                null
+            ],
+            [
+                "SSP2LMA"
+            ],
+            null
+        ],
+        "lfl": [
+            "Loss of Forest Land Mha/y",
+            "LFL",
+            [
+                "OGRE",
+                "CREX"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "locr": [
+            "LOss of CRopland Mha/y",
+            "LOCR",
+            [
+                "UREX",
+                "CRLO"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ndra": [
+            "Number of Doublings in Reg Ag (1)",
+            "NDRA",
+            [
+                "RAA"
+            ],
+            [
+                "EGB22"
+            ],
+            null
+        ],
+        "nfl": [
+            "New Forestry Land Mha/y",
+            "NFL",
+            [
+                "OGRE"
+            ],
+            [
+                "FCG"
+            ],
+            null
+        ],
+        "ngl": [
+            "New Grazing Land Mha/y",
+            "NGL",
+            [
+                "OGRE"
+            ],
+            [
+                "FCG"
+            ],
+            null
+        ],
+        "ogfa": [
+            "Old Growth Forest Area Mha 1",
+            "OGFA",
+            [
+                "NGL",
+                "NFL"
+            ],
+            [
+                null
+            ],
+            2600
+        ],
+        "ogre": [
+            "Old Growth Removal Mha/y",
+            "OGRE",
+            [
+                "OGRR",
+                "OGRRM",
+                "OGFA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ogrr": [
+            "Old Growth Removal Rate 1/y",
+            "OGRR",
+            [
+                "FFLREOGRR"
+            ],
+            [
+                "OGRR80"
+            ],
+            null
+        ],
+        "ogrrm": [
+            "Old Growth Removal Rate Multiplier (1)",
+            "OGRRM",
+            [
+                null
+            ],
+            [
+                "SSP2LMA"
+            ],
+            null
+        ],
+        "pcb": [
+            "Perceived Crop Balance (1)",
+            "PCB",
+            [
+                "CRBA"
+            ],
+            [
+                "DRC"
+            ],
+            null
+        ],
+        "prmgl": [
+            "Potential Red Meat from Grazing Land Mt-red-meat/y",
+            "PRMGL",
+            [
+                "GRLA",
+                "GLY"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "raa": [
+            "Regenerative Agriculture Area Mha",
+            "RAA",
+            [
+                "CRLA",
+                "FRA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "rmf": [
+            "Red Meat from Feedlots Mt-red-meat/y",
+            "RMF",
+            [
+                "RMGL",
+                "DRM"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "rmgl": [
+            "Red Meat from Grazing Land Mt-red-meat/y",
+            "RMGL",
+            [
+                "PRMGL",
+                "DRM"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "rmsp": [
+            "Red meat Supply per Person kg-red-meat/p/y",
+            "RMSP",
+            [
+                "RMGL",
+                "POP",
+                "CRBA",
+                "RMF"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "rocsqca": [
+            "ROC in Soil Quality in Conv Ag 1/y",
+            "ROCSQCA",
+            [
+                "FUCA"
+            ],
+            [
+                "FUESQ",
+                "SFU"
+            ],
+            null
+        ],
+        "sqica": [
+            "Soil Quality Index in Conv Ag (1980=1)",
+            "SQICA",
+            [
+                "CSQCA"
+            ],
+            [
+                null
+            ],
+            1
+        ],
+        "tfa": [
+            "Total Forest Area Mha",
+            "TFA",
+            [
+                "FOLA",
+                "OGFA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tfuca": [
+            "Traditional Fertilizer Use in Conv Ag kgN/ha/y",
+            "TFUCA",
+            [
+                "DCYCA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tuc": [
+            "Traditional Use of Crops Mt/y",
+            "TUC",
+            [
+                "TUCP",
+                "POP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tucerm": [
+            "Traditional Use of Crops Ex Red Meat Mt/y",
+            "TUCERM",
+            [
+                "TUFRM",
+                "FSPI",
+                "TUC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tucermp": [
+            "Traditional Use of Crops Ex Red Meat per Person kg-crop/p/y",
+            "TUCERMP",
+            [
+                "POP",
+                "TUCERM"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tucp": [
+            "Traditional Use of Crops per Person kg-crop/p/y",
+            "TUCP",
+            [
+                "GDPP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tufrm": [
+            "Traditional Use of Feed for Red Meat Mt-crop/y",
+            "TUFRM",
+            [
+                "RMGL",
+                "TURMP",
+                "POP"
+            ],
+            [
+                "KCKRM"
+            ],
+            null
+        ],
+        "turmp": [
+            "Traditional Use of Red Meat per Person kg-red-meat/p/y",
+            "TURMP",
+            [
+                "GDPP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "urex": [
+            "URban EXpansion Mha/y",
+            "UREX",
+            [
+                "URLA",
+                "IUL"
+            ],
+            [
+                "UDT"
+            ],
+            null
+        ],
+        "urla": [
+            "URban LAnd Mha",
+            "URLA",
+            [
+                "UREX"
+            ],
+            [
+                null
+            ],
+            215
+        ],
+        "wely": [
+            "Warming Effect on Land Yield (1)",
+            "WELY",
+            [
+                "OW"
+            ],
+            [
+                "OWEACYOW2022"
+            ],
+            null
+        ]
+    },
+    "inventory": {
+        "cddi": [
+            "Change in DDI 1/y",
+            "CDDI",
+            [
+                "DELDI",
+                "ROCDDI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cpi": [
+            "Change in Price Index 1/y",
+            "CPI",
+            [
+                "IR",
+                "PRIN"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "del_": [
+            "DELiveries Gu/y",
+            "del",
+            [
+                "DELDI",
+                "PNIS",
+                "EPP"
+            ],
+            [
+                "PPU",
+                "DDI1980"
+            ],
+            null
+        ],
+        "deldi": [
+            "DELivery Delay - Index (1)",
+            "DELDI",
+            [
+                "CDDI"
+            ],
+            [
+                null
+            ],
+            1
+        ],
+        "dswi": [
+            "Desired Shifts Worked - Index (1)",
+            "DSWI",
+            [
+                "PRI"
+            ],
+            [
+                "DRIINVEOSWI"
+            ],
+            null
+        ],
+        "epp": [
+            "Effective Purchasing Power Gdollar/y",
+            "EPP",
+            [
+                "TPP",
+                "EPP"
+            ],
+            [
+                "DAT"
+            ],
+            28087
+        ],
+        "gdp": [
+            "GDP Gdollar/y",
+            "GDP",
+            [
+                "OUTP"
+            ],
+            [
+                "PPU"
+            ],
+            null
+        ],
+        "ic": [
+            "Inventory Coverage y",
+            "IC",
+            [
+                "INV",
+                "RS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "inv": [
+            "INVentory Gu",
+            "INV",
+            [
+                "OUTP",
+                "del_"
+            ],
+            [
+                null
+            ],
+            11234.8
+        ],
+        "ir": [
+            "Inflation Rate 1/y",
+            "IR",
+            [
+                "PRI"
+            ],
+            [
+                "MRIWIINVEOIN"
+            ],
+            null
+        ],
+        "ni": [
+            "National Income Gdollar/y",
+            "NI",
+            [
+                "SA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "outp": [
+            "OUTPut Gu/y",
+            "OUTP",
+            [
+                "ORO",
+                "SSWI"
+            ],
+            [
+                "SWI1980"
+            ],
+            null
+        ],
+        "pnis": [
+            "Pink Noise In Sales (1)",
+            "PNIS",
+            [
+                null
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "pri": [
+            "Perceived Relative Inventory (1)",
+            "PRI",
+            [
+                "PRI",
+                "IC"
+            ],
+            [
+                "ICPT",
+                "DIC"
+            ],
+            1
+        ],
+        "prin": [
+            "PRice INdex (1980=1)",
+            "PRIN",
+            [
+                "CPI"
+            ],
+            [
+                null
+            ],
+            1
+        ],
+        "rocddi": [
+            "ROC in DDI 1/y",
+            "ROCDDI",
+            [
+                "PRI"
+            ],
+            [
+                "INVEODDISRI"
+            ],
+            null
+        ],
+        "rs": [
+            "Recent Sales Gu/y",
+            "RS",
+            [
+                "RS",
+                "del_"
+            ],
+            [
+                "SAT"
+            ],
+            28087
+        ],
+        "sa": [
+            "SAles Gdollar/y",
+            "SA",
+            [
+                "del_"
+            ],
+            [
+                "PPU"
+            ],
+            null
+        ],
+        "sswi": [
+            "ShiftS Worked - Index (1)",
+            "SSWI",
+            [
+                "DSWI",
+                "SSWI"
+            ],
+            [
+                "TAS"
+            ],
+            1
+        ]
+    },
+    "labour_market": {
+        "agiw": [
+            "Average Gross Income per Worker kdollar/p/y",
+            "AGIW",
+            [
+                "WARA",
+                "AHW"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ahw": [
+            "Average Hours Worked kh/y",
+            "AHW",
+            [
+                "NHW"
+            ],
+            [
+                "PFTJ"
+            ],
+            null
+        ],
+        "ahw1980": [
+            "Average Hours Worked in 1980 kh/y",
+            "AHW1980",
+            [
+                null
+            ],
+            [
+                "PFTJ80"
+            ],
+            null
+        ],
+        "avwo": [
+            "AVailable WOrkforce Mp",
+            "AVWO",
+            [
+                "LPR",
+                "WAP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ceclr": [
+            "Change in Embedded CLR kcu/ftj/y",
+            "CECLR",
+            [
+                "ECLR",
+                "ROCECLR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "chwo": [
+            "CHange in WOrkforce Mp/y",
+            "CHWO",
+            [
+                "WF",
+                "HFD",
+                "OPWO"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cwra": [
+            "Change in Wage RAte dollar/ph/y",
+            "CWRA",
+            [
+                "ROCWSO",
+                "WARA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cwso": [
+            "Change in WSO 1/y",
+            "CWSO",
+            [
+                "ROCWSO",
+                "WSO"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "eclr": [
+            "Embedded CLR kcu/ftj",
+            "ECLR",
+            [
+                "CECLR"
+            ],
+            [
+                null
+            ],
+            41
+        ],
+        "enlpr2022": [
+            "Extra Normal LPR from 2022 (1)",
+            "ENLPR2022",
+            [
+                "IPP"
+            ],
+            [
+                "GENLPR"
+            ],
+            null
+        ],
+        "gdpperocclr": [
+            "GDPppeoROCCLR",
+            "GDPPEROCCLR",
+            [
+                "GDPP"
+            ],
+            [
+                "GDPPEROCCLRMGDPP1980"
+            ],
+            null
+        ],
+        "hfd": [
+            "Hiring/Firing Delay y",
+            "HFD",
+            [
+                null
+            ],
+            [
+                "TYLD"
+            ],
+            null
+        ],
+        "hwmgdpp": [
+            "Hours Worked Mult from GDPpP (1)",
+            "HWMGDPP",
+            [
+                "GDPP"
+            ],
+            [
+                "TENHWGDPP1980"
+            ],
+            null
+        ],
+        "ilpr": [
+            "Indicated Labour Participation Rate (1)",
+            "ILPR",
+            [
+                "NLPR",
+                "PSW"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "iweoclr": [
+            "Indicated Wage Effect on Optimal CLR (1)",
+            "IWEOCLR",
+            [
+                "WSO"
+            ],
+            [
+                "WSOECLR"
+            ],
+            null
+        ],
+        "lapr": [
+            "LAbour PRoductivity dollar/ph",
+            "LAPR",
+            [
+                "OUTP",
+                "LAUS"
+            ],
+            [
+                "PRUN"
+            ],
+            null
+        ],
+        "laus": [
+            "LAbour USe Gph/y",
+            "LAUS",
+            [
+                "WF",
+                "AHW"
+            ],
+            [
+                null
+            ],
+            3060
+        ],
+        "laus80": [
+            "LAbour USe in 1980 Gph/y",
+            "LAUS80",
+            [
+                "AHW1980"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "lpr": [
+            "Labour Participation Rate (1)",
+            "LPR",
+            [
+                "LPR",
+                "ILPR"
+            ],
+            [
+                "TELLM"
+            ],
+            0.8
+        ],
+        "ltewso": [
+            "Long-Term Erosion of WSO 1/y",
+            "LTEWSO",
+            [
+                "WSO"
+            ],
+            [
+                "RWER"
+            ],
+            null
+        ],
+        "nhw": [
+            "Normal Hours Worked kh/ftj/y",
+            "NHW",
+            [
+                "HWMGDPP",
+                "NHW"
+            ],
+            [
+                "TAHW"
+            ],
+            2
+        ],
+        "nlpr": [
+            "Normal LPR (1)",
+            "NLPR",
+            [
+                "ENLPR2022",
+                "WSO"
+            ],
+            [
+                "NLPR80WSOELPR"
+            ],
+            null
+        ],
+        "oclr": [
+            "Optimal Capital Labour Ratio kcu/ftj",
+            "OCLR",
+            [
+                "WEOCLR",
+                "ECLR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "opwo": [
+            "OPtimal WOrkforce Mp",
+            "OPWO",
+            [
+                "CAP",
+                "OCLR"
+            ],
+            [
+                "PFTJ"
+            ],
+            null
+        ],
+        "part": [
+            "Participation (1)",
+            "PART",
+            [
+                "PURA",
+                "LPR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "psw": [
+            "Perceived Surplus Workforce (1)",
+            "PSW",
+            [
+                "PURA"
+            ],
+            [
+                "PUELPR",
+                "AUR"
+            ],
+            null
+        ],
+        "pura": [
+            "Perceived Unemployment RAte (1)",
+            "PURA",
+            [
+                "PURA",
+                "UPT",
+                "UR"
+            ],
+            [
+                null
+            ],
+            0.05
+        ],
+        "roceclr": [
+            "ROC in ECLR 1/y",
+            "ROCECLR",
+            [
+                "GDPPEROCCLR"
+            ],
+            [
+                "ROCECLR80"
+            ],
+            null
+        ],
+        "rocwso": [
+            "ROC in WSO - Table 1/y",
+            "ROCWSO",
+            [
+                "PURA"
+            ],
+            [
+                "AUR"
+            ],
+            null
+        ],
+        "tct": [
+            "Time to Change Tooling y",
+            "TCT",
+            [
+                null
+            ],
+            [
+                "TYLD"
+            ],
+            null
+        ],
+        "unem": [
+            "UNEMployed Mp",
+            "UNEM",
+            [
+                "WF",
+                "AVWO"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "upt": [
+            "Unemployment perception time y",
+            "UPT",
+            [
+                null
+            ],
+            [
+                "TYLD"
+            ],
+            null
+        ],
+        "ur": [
+            "UNemployment RAte (1)",
+            "UR",
+            [
+                "AVWO",
+                "UNEM"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wap": [
+            "Working Age Population Mp",
+            "WAP",
+            [
+                "A20PA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wara": [
+            "WAge RAte dollar/ph",
+            "WARA",
+            [
+                "WRE",
+                "CWRA"
+            ],
+            [
+                null
+            ],
+            3.6715
+        ],
+        "wash": [
+            "WAge Share (1)",
+            "WASH",
+            [
+                "LAPR",
+                "WARA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "weoclr": [
+            "Wage Effect on Optimal CLR (1)",
+            "WEOCLR",
+            [
+                "WEOCLR",
+                "IWEOCLR",
+                "TCT"
+            ],
+            [
+                null
+            ],
+            1
+        ],
+        "wf": [
+            "WorkForce Mp",
+            "WF",
+            [
+                "CHWO"
+            ],
+            [
+                null
+            ],
+            1530
+        ],
+        "wre": [
+            "Wage Rate Erosion dollar/ph/y",
+            "WRE",
+            [
+                "WRER",
+                "WARA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wrer": [
+            "Wage Rate Erosion Rate 1/y",
+            "WRER",
+            [
+                "IR"
+            ],
+            [
+                "FIC"
+            ],
+            null
+        ],
+        "wso": [
+            "Worker Share of Output (1)",
+            "WSO",
+            [
+                "LTEWSO",
+                "CWSO"
+            ],
+            [
+                null
+            ],
+            0.5
+        ]
+    },
+    "other_performance_indicators": {
+        "cfeta": [
+            "Cost of Food and Energy TAs GDollar/y",
+            "CFETA",
+            [
+                "COFO",
+                "CE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cta": [
+            "Cost of TAs GDollar/y",
+            "CTA",
+            [
+                "CFETA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "fb15": [
+            "Fraction Below 15 kDollar/p/y (1)",
+            "FB15",
+            [
+                "LK",
+                "GDPP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "iel": [
+            "Inequity Effect on Logistic k (1)",
+            "IEL",
+            [
+                "INEQ"
+            ],
+            [
+                "INELOK"
+            ],
+            null
+        ],
+        "lk": [
+            "Logistic K (1)",
+            "LK",
+            [
+                "IEL"
+            ],
+            [
+                "NK"
+            ],
+            null
+        ],
+        "pb15": [
+            "Population Below 15 kDollar/p/y Mp",
+            "PB15",
+            [
+                "POP",
+                "FB15"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "pgdpp": [
+            "Past GDP per Person kDollar/y",
+            "PGDPP",
+            [
+                "GDPP",
+                "PGDPP"
+            ],
+            [
+                "TEGR"
+            ],
+            5.952
+        ],
+        "rggdpp": [
+            "Rate of Growth in GDP per Person 1/y",
+            "RGGDPP",
+            [
+                "GDPP",
+                "PGDPP"
+            ],
+            [
+                "TEGR"
+            ],
+            null
+        ]
+    },
+    "output": {
+        "avca": [
+            "AVailable CApital Gdollar/y",
+            "AVCA",
+            [
+                "TS"
+            ],
+            [
+                "FCI"
+            ],
+            null
+        ],
+        "cap": [
+            "CAPacity Gcu",
+            "CAP",
+            [
+                "CPUS",
+                "CPIS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "capis": [
+            "Capacity Addition PIS Gcu/y",
+            "CAPIS",
+            [
+                "CUCPIS"
+            ],
+            [
+                "CTPIS"
+            ],
+            null
+        ],
+        "capus": [
+            "Capacity Addition PUS Gcu/y",
+            "CAPUS",
+            [
+                "CUCPUS"
+            ],
+            [
+                "CTPUS"
+            ],
+            null
+        ],
+        "cbcefca": [
+            "CBC Effect on Flow to Capacity Addion (1)",
+            "CBCEFCA",
+            [
+                "CBC",
+                "CBC1980"
+            ],
+            [
+                "CBCEFRA"
+            ],
+            null
+        ],
+        "cdpis": [
+            "Capacity Discard PIS Gcu/y",
+            "CDPIS",
+            [
+                "LCPIS",
+                "CPIS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cdpus": [
+            "Capacity Discard PUS Gcu/y",
+            "CDPUS",
+            [
+                "CPUS",
+                "LCPUS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cipis": [
+            "Capacity Initiation PIS Gcu/y",
+            "CIPIS",
+            [
+                "INCPIS",
+                "GDP",
+                "OBSGIPIS",
+                "COCA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cipus": [
+            "Capacity Initiation PUS Gcu/y",
+            "CIPUS",
+            [
+                "GIPC",
+                "GDP",
+                "OBSGIPUS",
+                "COCA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "coca": [
+            "COst of CApacity dollar/cu",
+            "COCA",
+            [
+                "OWECC"
+            ],
+            [
+                "CC1980"
+            ],
+            null
+        ],
+        "cpis": [
+            "Capacity PIS Gcu",
+            "CPIS",
+            [
+                "CDPIS",
+                "CAPIS"
+            ],
+            [
+                null
+            ],
+            59250
+        ],
+        "cpus": [
+            "Capacity PUS Gcu",
+            "CPUS",
+            [
+                "CDPUS",
+                "CAPUS"
+            ],
+            [
+                null
+            ],
+            5350
+        ],
+        "crr": [
+            "Capacity Renewal Rate 1/y",
+            "CRR",
+            [
+                "CAPIS",
+                "CPIS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "cucpis": [
+            "Capacity Under Construction PIS Gcu",
+            "CUCPIS",
+            [
+                "CAPIS",
+                "CIPIS"
+            ],
+            [
+                null
+            ],
+            10072.5
+        ],
+        "cucpus": [
+            "Capacity Under Construction PUS Gcu",
+            "CUCPUS",
+            [
+                "CIPUS",
+                "CAPUS"
+            ],
+            [
+                null
+            ],
+            909.5
+        ],
+        "cucpus1980": [
+            "CUC PUS in 1980 Gcu",
+            "CUCPUS1980",
+            [
+                "LCPUS1980"
+            ],
+            [
+                "EMCUCCAPPUS1980CTPUS"
+            ],
+            null
+        ],
+        "ecr": [
+            "Effect of Capacity Renewal 1/y",
+            "ECR",
+            [
+                "CRR",
+                "ITFP",
+                "ETFP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ede": [
+            "Excess DEmand (1)",
+            "EDE",
+            [
+                "OOV",
+                "TPP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "edefca": [
+            "ED Effect on Flow to Capacity Addition (1)",
+            "EDEFCA",
+            [
+                "PEDE"
+            ],
+            [
+                "EDEFRAED1980"
+            ],
+            null
+        ],
+        "edelc": [
+            "Excess Demand Effect on Life of Capacity (1)",
+            "EDELC",
+            [
+                "PEDE"
+            ],
+            [
+                "EDELCMED1980"
+            ],
+            null
+        ],
+        "etfp": [
+            "Embedded TFP (1)",
+            "ETFP",
+            [
+                "ECR"
+            ],
+            [
+                null
+            ],
+            1
+        ],
+        "facnc": [
+            "Fraction of Available Capital to New Capacity (1)",
+            "FACNC",
+            [
+                "EDEFCA",
+                "CBCEFCA",
+                "FRACAMGDPPL",
+                "FACNC",
+                "WSOEFCA"
+            ],
+            [
+                "FRA1980",
+                "IPT"
+            ],
+            1.0515
+        ],
+        "fracamgdppl": [
+            "FRACA Mult from GDPpP - Line (1)",
+            "FRACAMGDPPL",
+            [
+                "GDPP"
+            ],
+            [
+                "GDPP1980FRACAMGDPPEFRACA"
+            ],
+            null
+        ],
+        "fracamgdppt": [
+            "FRACA Mult from GDPpP - Table (1)",
+            "FRACAMGDPPT",
+            [
+                "GDPP"
+            ],
+            [
+                "GDPP1980"
+            ],
+            null
+        ],
+        "incpis": [
+            "Investment in New Capacity PIS Gdollar/y",
+            "INCPIS",
+            [
+                "AVCA",
+                "FACNC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "isgdp": [
+            "Investment Share of GDP (1)",
+            "ISGDP",
+            [
+                "GIPC",
+                "INCPIS",
+                "GDP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "lcpis": [
+            "Life of Capacity PIS y",
+            "LCPIS",
+            [
+                "EDELC",
+                "OWELC"
+            ],
+            [
+                "LCPIS1980"
+            ],
+            null
+        ],
+        "lcpus": [
+            "Life of Capacity PUS y",
+            "LCPUS",
+            [
+                "LCPUS1980"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "lcpus1980": [
+            "Life of Capacity PUS in 1980 y",
+            "LCPUS1980",
+            [
+                "OWELC"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "obsgipis": [
+            "Off-Balance Sheet Govmnt Inv in PIS (share of GDP)",
+            "OBSGIPIS",
+            [
+                null
+            ],
+            [
+                "USPIS2022"
+            ],
+            null
+        ],
+        "obsgipus": [
+            "Off-Balance-Sheet Govmnt Inv in PUS (share of GDP)",
+            "OBSGIPUS",
+            [
+                null
+            ],
+            [
+                "USPUS2022"
+            ],
+            null
+        ],
+        "ogr": [
+            "Output Growth Rate 1/y",
+            "OGR",
+            [
+                "OLY",
+                "ORO",
+                "OGR"
+            ],
+            [
+                null
+            ],
+            0.06
+        ],
+        "oly": [
+            "Output Last Year Gdollar/y",
+            "OLY",
+            [
+                "OLY",
+                "ORO"
+            ],
+            [
+                null
+            ],
+            26497.1
+        ],
+        "oov": [
+            "Optimal Ouput - Value Gdollar/y",
+            "OOV",
+            [
+                "ORO"
+            ],
+            [
+                "PRUN"
+            ],
+            null
+        ],
+        "oro": [
+            "Optimal Real Output Gu/y",
+            "ORO",
+            [
+                "CPUS",
+                "LAUS",
+                "CPIS",
+                "ETFP",
+                "laus80"
+            ],
+            [
+                "OO1980LAMBDALAUS1980KAPPACAPPUS1980CAPPIS1980"
+            ],
+            null
+        ],
+        "owecc": [
+            "OWeoCOC (1)",
+            "OWECC",
+            [
+                "OW"
+            ],
+            [
+                "OWECCMOW2022"
+            ],
+            null
+        ],
+        "owelc": [
+            "OWeoLOC (1)",
+            "OWELC",
+            [
+                "OW"
+            ],
+            [
+                "OWELCMOW2022"
+            ],
+            null
+        ],
+        "pede": [
+            "Perceived Excess DEmand (1)",
+            "PEDE",
+            [
+                "EDE",
+                "PEDE"
+            ],
+            [
+                "TOED"
+            ],
+            1
+        ],
+        "wsoefca": [
+            "WSO Effect on Flow to Capacity Addition (1)",
+            "WSOEFCA",
+            [
+                "WASH"
+            ],
+            [
+                "WSOEFRA"
+            ],
+            null
+        ]
+    },
+    "population": {
+        "a0020": [
+            "Aged 0-20 years Mp",
+            "A0020",
+            [
+                "PASS20",
+                "BIRTHS"
+            ],
+            [
+                null
+            ],
+            2170
+        ],
+        "a2040": [
+            "Aged 20-40 years Mp",
+            "A2040",
+            [
+                "PASS20",
+                "PASS40"
+            ],
+            [
+                null
+            ],
+            1100
+        ],
+        "a20pa": [
+            "Aged 20-Pension Age Mp",
+            "A20PA",
+            [
+                "OP",
+                "A2040",
+                "A4060",
+                "A60PL"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "a4060": [
+            "Aged 40-60 Mp",
+            "A4060",
+            [
+                "PASS60",
+                "PASS40"
+            ],
+            [
+                null
+            ],
+            768
+        ],
+        "a60pl": [
+            "Aged 60 + Mp",
+            "A60PL",
+            [
+                "PASS60",
+                "DEATHS"
+            ],
+            [
+                null
+            ],
+            382
+        ],
+        "birthr": [
+            "Birth Rate 1/y",
+            "BIRTHR",
+            [
+                "POP",
+                "BIRTHS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "births": [
+            "Births Mp/y",
+            "BIRTHS",
+            [
+                "OF",
+                "A2040"
+            ],
+            [
+                "FP",
+                "FW"
+            ],
+            null
+        ],
+        "cefr": [
+            "Cost of Extra Fertility Reduction (share of GDP)",
+            "CEFR",
+            [
+                "EFR"
+            ],
+            [
+                "CMFR"
+            ],
+            null
+        ],
+        "deathr": [
+            "Death Rate 1/y",
+            "DEATHR",
+            [
+                "POP",
+                "DEATHS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "deaths": [
+            "Deaths Mp/y",
+            "DEATHS",
+            [
+                "PASS60"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "dnc": [
+            "Desired No of Children 1",
+            "DNC",
+            [
+                "EGDPP",
+                "EFR",
+                "FM"
+            ],
+            [
+                "DNCA",
+                "DNC80",
+                "DNCG",
+                "DNCM"
+            ],
+            null
+        ],
+        "dr": [
+            "Dependency Ratio p/p",
+            "DR",
+            [
+                "A0020",
+                "A2040",
+                "A4060",
+                "A60PL"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "efr": [
+            "Extra Fertility Reduction (1)",
+            "EFR",
+            [
+                "IPP"
+            ],
+            [
+                "GEFR"
+            ],
+            null
+        ],
+        "egdpp": [
+            "Effective GDP per Person kDollar/p/y",
+            "EGDPP",
+            [
+                "GDPP",
+                "EGDPP"
+            ],
+            [
+                "TAHI"
+            ],
+            6.4
+        ],
+        "epa": [
+            "Extra Pension Age y",
+            "EPA",
+            [
+                "IPP"
+            ],
+            [
+                "GEPA"
+            ],
+            0
+        ],
+        "fm": [
+            "Fertility Multiplier (1)",
+            "FM",
+            [
+                null
+            ],
+            [
+                "SSP2FA2022F",
+                "MFM"
+            ],
+            null
+        ],
+        "gdpp": [
+            "GDP per Person kDollar/p/y",
+            "GDPP",
+            [
+                "POP",
+                "GDP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "le": [
+            "Life Expectancy y",
+            "LE",
+            [
+                "LEM",
+                "WELE",
+                "EGDPP"
+            ],
+            [
+                "LEMAX",
+                "LEA",
+                "LEG"
+            ],
+            67
+        ],
+        "le60": [
+            "LE at 60 y",
+            "LE60",
+            [
+                "LE"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "lem": [
+            "Life Expectancy Multipler (1)",
+            "LEM",
+            [
+                null
+            ],
+            [
+                "MLEM",
+                "SSP2FA2022F"
+            ],
+            null
+        ],
+        "of": [
+            "Observed Fertility 1",
+            "OF",
+            [
+                "DNC"
+            ],
+            [
+                "FADFS"
+            ],
+            null
+        ],
+        "op": [
+            "On Pension Mp",
+            "OP",
+            [
+                "PA",
+                "LE",
+                "A60PL"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "pa": [
+            "Pension Age y",
+            "PA",
+            [
+                "EPA",
+                "LE"
+            ],
+            [
+                "LEEPA"
+            ],
+            62
+        ],
+        "pass20": [
+            "Passing 20 Mp/y",
+            "PASS20",
+            [
+                "BIRTHS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "pass40": [
+            "Passing 40 Mp/y",
+            "PASS40",
+            [
+                "PASS20"
+            ],
+            [
+                null
+            ],
+            64
+        ],
+        "pass60": [
+            "Passing 60 Mp/y",
+            "PASS60",
+            [
+                "PASS40"
+            ],
+            [
+                null
+            ],
+            38
+        ],
+        "pgr": [
+            "Population Growth Rate 1/y",
+            "PGR",
+            [
+                "BIRTHR",
+                "DEATHR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "pop": [
+            "Population Mp",
+            "POP",
+            [
+                "A0020",
+                "A2040",
+                "A4060",
+                "A60PL"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "pw": [
+            "Pensioners per Worker p/p",
+            "PW",
+            [
+                "OP",
+                "A20PA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "wele": [
+            "Warming Effect on Life Expectancy (1)",
+            "WELE",
+            [
+                "OW"
+            ],
+            [
+                "OWELE",
+                "OW2022"
+            ],
+            null
+        ]
+    },
+    "public": {
+        "ctfp": [
+            "Change in TFP 1/y",
+            "CTFP",
+            [
+                "RTA",
+                "TFPEE5TA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "drta": [
+            "Domestic Rate of Technological Advance 1/y",
+            "DRTA",
+            [
+                "SC"
+            ],
+            [
+                "SCROTASC1980DROTA1980EDROTA2022"
+            ],
+            null
+        ],
+        "ectaf2022": [
+            "Extra Cost of TAs From 2022 GDollar/y",
+            "ECTAF2022",
+            [
+                "CTA"
+            ],
+            [
+                "CTA2022"
+            ],
+            null
+        ],
+        "ectagdp": [
+            "Extra Cost of TAs as share of GDP (1)",
+            "ECTAGDP",
+            [
+                "ECTAF2022",
+                "GDP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "gssgdp": [
+            "Govmnt Spending as Share of GDP",
+            "GSSGDP",
+            [
+                "GDP",
+                "GS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "ipr": [
+            "Infrastructure Purchases Ratio y",
+            "IPR",
+            [
+                "CPUS",
+                "GPU"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "irota": [
+            "Imported ROTA 1/y",
+            "IROTA",
+            [
+                "GDPP"
+            ],
+            [
+                "GDPTLMIROTA2022"
+            ],
+            null
+        ],
+        "itfp": [
+            "Indicated TFP (1)",
+            "ITFP",
+            [
+                "OWTFP",
+                "TFPEE5TA",
+                "tfpie5ta"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "owtfp": [
+            "OWeoTFP",
+            "OWTFP",
+            [
+                "OW"
+            ],
+            [
+                "OWETFPOW2022"
+            ],
+            null
+        ],
+        "plua": [
+            "Productivity Loss from Unprofitable Activity (1)",
+            "PLUA",
+            [
+                "ECTAGDP"
+            ],
+            [
+                "FUATA"
+            ],
+            null
+        ],
+        "ppp": [
+            "Productivity of Public Purchases (1)",
+            "PPP",
+            [
+                "IPR"
+            ],
+            [
+                "IPRVPSSIPR1980"
+            ],
+            null
+        ],
+        "psep": [
+            "Public SErvices per Person kdollar/p/y",
+            "PSEP",
+            [
+                "POP",
+                "VPSS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "psp": [
+            "Public Spending per Person kDollar/p/y",
+            "PSP",
+            [
+                "POP",
+                "GS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "rrotai": [
+            "Reduction in ROTA from Inequality 1/y",
+            "RROTAI",
+            [
+                "INEQI"
+            ],
+            [
+                "IIEEROTA"
+            ],
+            null
+        ],
+        "rta": [
+            "Rate of Technological Advance 1/y",
+            "RTA",
+            [
+                "DRTA",
+                "IROTA",
+                "RROTAI"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "rtfpua": [
+            "Reduction in TFP from Unprofitable Activity (1)",
+            "RTFPUA",
+            [
+                "RTFPUA",
+                "PLUA"
+            ],
+            [
+                "CTPIS",
+                "IPT"
+            ],
+            0
+        ],
+        "sc": [
+            "State Capacity (fraction of GDP)",
+            "SC",
+            [
+                "GDP",
+                "VPSS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "tfpee5ta": [
+            "TFP Excluding Effect of 5TAs (1)",
+            "TFPEE5TA",
+            [
+                "CTFP"
+            ],
+            [
+                null
+            ],
+            1
+        ],
+        "tfpie5ta": [
+            "TFP Including Effect of 5TAs (1)",
+            "TFPIE5TA",
+            [
+                "RTFPUA",
+                "TFPEE5TA"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "vpss": [
+            "Value of Public Services Supplied GDollar/y",
+            "VPSS",
+            [
+                "PPP",
+                "GPU"
+            ],
+            [
+                null
+            ],
+            null
+        ]
+    },
+    "wellbeing": {
+        "awbdi": [
+            "Average WellBeing from Disposable Income (1)",
+            "AWBDI",
+            [
+                "WDI"
+            ],
+            [
+                "DRDI",
+                "TDI"
+            ],
+            null
+        ],
+        "awbgw": [
+            "Average WellBeing from Global Warming (1)",
+            "AWBGW",
+            [
+                "PWA"
+            ],
+            [
+                "TW",
+                "MWBGWGWEAWBGWF"
+            ],
+            null
+        ],
+        "awbi": [
+            "Average WellBeing Index (1)",
+            "AWBI",
+            [
+                "AWBDI",
+                "AWBGW",
+                "AWBIN",
+                "AWBP",
+                "AWBPS"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "awbin": [
+            "Average WellBeing from INequality (1)",
+            "AWBIN",
+            [
+                "INEQ"
+            ],
+            [
+                "TI",
+                "IEAWBIF"
+            ],
+            null
+        ],
+        "awbp": [
+            "Average WellBeing from Progress (1)",
+            "AWBP",
+            [
+                "ORP",
+                "WBEP"
+            ],
+            [
+                "TPR",
+                "PREAWBF"
+            ],
+            null
+        ],
+        "awbps": [
+            "Average WellBeing from Public Spending (1)",
+            "AWBPS",
+            [
+                "PSP"
+            ],
+            [
+                "DRPS",
+                "TPS"
+            ],
+            null
+        ],
+        "iest": [
+            "Inequity Effect on Social Trust (1)",
+            "IEST",
+            [
+                "INEQ"
+            ],
+            [
+                "AI"
+            ],
+            null
+        ],
+        "ipp": [
+            "Introduction Period for Policy y",
+            "IPP",
+            [
+                "RD"
+            ],
+            [
+                "EIP",
+                "EIPF"
+            ],
+            null
+        ],
+        "ird": [
+            "Indicated Reform Delay y",
+            "IRD",
+            [
+                "STRERD",
+                "STEERD"
+            ],
+            [
+                "NRD"
+            ],
+            null
+        ],
+        "ist": [
+            "Indicated Social Trust (1)",
+            "IST",
+            [
+                "IEST",
+                "PSESTR"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "orp": [
+            "Observed Rate of Progress 1/y",
+            "ORP",
+            [
+                "AWBI",
+                "ORP",
+                "PAWBI"
+            ],
+            [
+                "AWBPD"
+            ],
+            0
+        ],
+        "pawbi": [
+            "Past AWI (1)",
+            "PAWBI",
+            [
+                "AWBI",
+                "PAWBI"
+            ],
+            [
+                "AWBPD"
+            ],
+            0.65
+        ],
+        "psestr": [
+            "Public Spending Effect on Social TRust (1)",
+            "PSESTR",
+            [
+                "PSSGDP"
+            ],
+            [
+                "SPS"
+            ],
+            null
+        ],
+        "pssgdp": [
+            "Public Spending as Share of GDP",
+            "PSSGDP",
+            [
+                "GDPP",
+                "PSP"
+            ],
+            [
+                null
+            ],
+            null
+        ],
+        "rd": [
+            "Reform Delay y",
+            "RD",
+            [
+                "RD",
+                "IRD"
+            ],
+            [
+                "TCRD"
+            ],
+            30
+        ],
+        "ste": [
+            "Social TEnsion (1)",
+            "STE",
+            [
+                "ORP"
+            ],
+            [
+                "PESTF",
+                "AP"
+            ],
+            1.3
+        ],
+        "steerd": [
+            "Social TEnsion Effect on Reform Delay (1)",
+            "STEERD",
+            [
+                "STE"
+            ],
+            [
+                "STEERDF"
+            ],
+            null
+        ],
+        "soc_trust": [
+            "Social Trust (1)",
+            "STR",
+            [
+                "soc_trust",
+                "IST"
+            ],
+            [
+                "TEST"
+            ],
+            0.6
+        ],
+        "strerd": [
+            "Social TRust Effect on Reform Delay (1)",
+            "STRERD",
+            [
+                "soc_trust"
+            ],
+            [
+                "STRERDF"
+            ],
+            null
+        ],
+        "wbep": [
+            "WellBeing Effect of Participation (1)",
+            "WBEP",
+            [
+                "LPR"
+            ],
+            [
+                "t_part",
+                "PAEAWBF"
+            ],
+            null
+        ]
+    }
+}

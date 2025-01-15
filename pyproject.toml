@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "earth4all_4py"
+version = "0.1"
+description = "Python implementation of the Earth4All model."
+authors = ["ElliotTapperKarlsson <elliottk@kth.se>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+numpy = ">=1.23, <2.3.0"
+scipy = "1.13"
+matplotlib = ">=3.9.0"
+pandas>=1.2.0
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

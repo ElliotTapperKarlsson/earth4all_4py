@@ -1,0 +1,10 @@
+{
+    "cfeta": "cofo + ce",
+    "cta": "cfeta",
+    "fb15": "1 - ( 1 / ( 1 +exp( - lk * ( gdpp - 14))))",
+    "iel": "1 + inelok * ( ineq / 0.5 - 1 )",
+    "lk": "nk * iel",
+    "pb15": "pop * fb15",
+    "pgdpp": "smoothi( pgdpp, gdpp, tegr, gdpp1980 * factor_to_avoid_transient_in_growth_rate, dt )",
+    "rggdpp": "(( gdpp - pgdpp ) / pgdpp) / tegr"
+}
